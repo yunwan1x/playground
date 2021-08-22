@@ -11,6 +11,6 @@ module.exports = {
     devtool: 'inline-source-map',
     devServer: {
         port: 8010,
-        host: 'localhost',
+        host: 'blog.vs2010wy.top',
     },
 };
