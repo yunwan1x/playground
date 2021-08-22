@@ -1,14 +1,19 @@
 const path = require('path');
+const TerserPlugin = require("terser-webpack-plugin");
+
 
 module.exports = {
     mode: 'development',
+    optimization: {
+        minimize: true,
+        minimizer: [new TerserPlugin()],
+    },
     entry: './src/gitpost.js',
     output: {
         filename: 'gitpost.js',
         path: path.resolve(__dirname, 'public'),
-        clean: true,
     },
-    devtool: 'inline-source-map',
+    // devtool: 'inline-source-map',
     devServer: {
         port: 8010,
         host: 'blog.vs2010wy.top',
