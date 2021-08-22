@@ -2,7 +2,7 @@ const path = require('path');
 
 module.exports = {
     mode: 'development',
-    entry: './src/index.js',
+    entry: './src/gitpost.js',
     output: {
         filename: 'gitpost.js',
         path: path.resolve(__dirname, 'public'),
