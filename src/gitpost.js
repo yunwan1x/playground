@@ -238,7 +238,7 @@ topmost: false
             if (isAdmin(options)) {
                 options.saving = true;
                 try {
-                   await savePost(options)
+                    await savePost(options)
                 } catch (e) {
                     showGitHubErrorInfo(e)
                 }
@@ -256,7 +256,7 @@ topmost: false
         async click(element){
             let text="https://www.baidu.com"
             try {
-                 text = await navigator.clipboard.readText();
+                text = await navigator.clipboard.readText();
             } catch (e) {
             }
             if(text.startsWith("http")){
@@ -294,7 +294,7 @@ topmost: false
         },
         preview: {
             markdown: {
-                codeBlockPreview: true,
+                codeBlockPreview: false,
                 autoSpace: false
             },
             mode: isPhone ? "editor" : "both",
@@ -302,7 +302,7 @@ topmost: false
         mode: "ir",
         typewriterMode: true,
         cache: {
-            enable: true
+            enable: false
         },
         async after() {
             $('#login').on('click', function () {
@@ -571,10 +571,20 @@ topmost: false
 
     function getUser(options) {
         const str = options.user || window.localStorage.getItem("GT_USER")
-        return str && JSON.parse(str) || {}
+        let user={}
+        if(str){
+            user=JSON.parse(str);
+            const  timeElapsed=new Date().getTime()-(user.loginTime||0)
+            //有效期一天
+            if(timeElapsed>24*3600*1000){
+                return {}
+            }
+        }
+        return user
     }
 
     function setUser(options, user) {
+        user.loginTime=new Date().getTime()
         var str = JSON.stringify(user);
         window.localStorage.setItem("GT_USER", str)
         options.user = str
