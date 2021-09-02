@@ -260,7 +260,8 @@ topmost: false
             } catch (e) {
             }
             if(text.startsWith("http")){
-                vditor.insertValue(`[链接](${text})`)
+                const title=text.split('.').length>1&&text.split('.')[1]
+                vditor.insertValue(`[${title}](${text})`)
             }else {
                 vditor.insertValue(text)
             }
