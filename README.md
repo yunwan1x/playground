@@ -1,9 +1,13 @@
+## 资源
+1. [unicode参考](https://unicode-table.com/cn/emoji/)
+
 ## 参考
 1. [docsify参考](https://docsify.js.org/#/zh-cn/markdown)
 
 ## markdown 参考
 1. [docsify awesome](https://docsify.js.org/#/zh-cn/awesome)
 2. [docsify code](https://github.com/docsifyjs/docsify/blob/develop/index.html)
+
 
 ## 运行+
 ```bash
