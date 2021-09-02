@@ -47,11 +47,19 @@
 <script>
     window.$docsify = {
 
-        name: "Playground &#128175;\n",
+        alias: {
+            // '/foo/(.*)': '/bar/$1',
+            // '/zh-cn/changelog': '/changelog',
+            // '/changelog':
+            //     'https://raw.githubusercontent.com/docsifyjs/docsify/master/CHANGELOG',
+            // '/.*/_sidebar.md': './docs/_sidebar.md',
+        },
+        name: "Playground &#128175;",
         repo: "yunwan1x/gitpod",
         // auto2top: true,
         loadSidebar: true,
-        basePath: '/',
+        // basePath: '/docs',
+        relativePath:true,
         executeScript: true,
         loadNavbar: true,
         hideSidebar: false,
