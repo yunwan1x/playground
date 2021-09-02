@@ -65,8 +65,8 @@
         hideSidebar: false,
         mergeNavbar: true,
         maxLevel: 4,
-        subMaxLevel: 2,
-        routerMode: 'history',
+        subMaxLevel: 0,
+        // routerMode: 'history',
         search: {
             noData: {
                 '/': '没有结果!',
@@ -90,7 +90,7 @@
                             .replace("raw.githubusercontent.com", "github.com")
                             .replace(/\/main/, "/blob/main");
                     } else {
-                        url = "https://github.com/yunwan1x/gitpod/blob/master/docs" + vm.route.file;
+                        url = "https://github.com/yunwan1x/playground/blob/master/docs/" + vm.route.file;
                     }
 
                     const github = `[GitHub](${url})`;
