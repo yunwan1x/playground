@@ -370,8 +370,13 @@ topmost: false
     async function getPostContent(options) {
         const {owner, repo} = options
         const {path, editMode, type} = options;
+        const  auth=getAccessToken(options)
         if (editMode) {
-            const res = await axiosGithub.get(`/repos/${owner}/${repo}/contents/${path}`);
+            const res = await axiosGithub.get(`/repos/${owner}/${repo}/contents/${path}`,{
+                headers: {
+                    Authorization: `token ${auth}`
+                }
+            });
             const {data: {content, sha}} = res
             return {content: Base64.decode(content), sha}
 
@@ -544,8 +549,13 @@ topmost: false
     }
 
     async function getFile(owner, repo, path) {
+        const  auth=getAccessToken(options)
         try {
-            let fileInfo = await axiosGithub.get(`/repos/${owner}/${repo}/contents/${path}`)
+            let fileInfo = await axiosGithub.get(`/repos/${owner}/${repo}/contents/${path}`,{
+                headers: {
+                    Authorization: `token ${auth}`
+                }
+            })
             const {data: {content, sha}} = fileInfo;
             return {content: Base64.decode(content), sha: sha}
         } catch (e) {
