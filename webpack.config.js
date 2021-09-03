@@ -8,7 +8,7 @@ module.exports = {
         minimize: false,
         minimizer: [new TerserPlugin()],
     },
-    entry: 'docs/src/gitpost.js',
+    entry: './docs/src/gitpost.js',
     output: {
         filename: 'gitpost.js',
         path: path.resolve(__dirname, 'public'),
