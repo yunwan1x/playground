@@ -227,10 +227,26 @@ topmost: false
         click(element, vditor) {
         },
     }
+    const cacheState={
+
+        none:"#586069",
+        cached:"#d81e06"
+    }
+    const clearCache = {
+        name: "clear",
+        tip: "清空缓存",
+        hotkey: '⌘D',
+        icon:`<svg t="1630746420909" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="6134" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16"><defs><style type="text/css"></style></defs><path d="M871.9104 240.64v648.1152c0 59.776-54.784 108.0576-122.3424 108.0576H260.5824c-67.584 0-122.3424-48.384-122.3424-108.0576V240.64h733.6704zM390.144 422.912h-61.44v417.92h61.44V422.912z m294.912 0h-61.44v417.92h61.44V422.912zM660.48 25.6l61.4656 58.8032H906.24a30.72 30.72 0 0 1 30.72 30.72v56.192a30.72 30.72 0 0 1-30.72 30.72H107.52a30.72 30.72 0 0 1-30.72-30.72V115.1232a30.72 30.72 0 0 1 30.72-30.72h184.2944L353.2544 25.6H660.48z" p-id="6135" id="wy_cache" fill="#586069"></path></svg>`,
+        async click(element, vditor) {
+            const success=await clearContentFromCache()
+            if(success){
+                window.location.reload()
+            }
+        },
+    }
     const saveButton = {
         name: "save",
         tip: "保存",
-        tipPosition: "n",
         icon:'<svg t="1629634645921" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="12174" width="32" height="32" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><style type="text/css"></style></defs><path d="M959.937 903.937c0 30.913-25.081 55.996-55.996 55.996L119.996 959.933C89.081 959.933 64 934.85 64 903.937l0-783.94C64 89.082 89.081 64 119.996 64l541.293 0c30.915 0 73.49 17.495 95.659 39.662l163.323 163.323c22.169 22.168 39.665 64.744 39.665 95.658L959.936 903.937zM885.273 885.27 885.273 362.644c0-11.079-9.916-34.998-17.494-42.583L703.874 156.157c-8.168-8.167-30.916-17.496-42.585-17.496l0 242.65c0 30.914-25.081 55.996-55.996 55.996L269.318 437.307c-30.915 0-55.996-25.082-55.996-55.996l0-242.65-74.662 0L138.66 885.27l74.662 0L213.322 642.626c0-30.917 25.081-55.996 55.996-55.996l485.3 0c30.913 0 55.996 25.079 55.996 55.996L810.614 885.27 885.273 885.27zM735.951 885.27 735.951 661.29 287.984 661.29 287.984 885.27 735.951 885.27zM586.629 157.328c0-9.918-8.748-18.667-18.666-18.667L455.971 138.661c-9.917 0-18.665 8.748-18.665 18.667l0 186.652c0 9.919 8.748 18.665 18.665 18.665l111.992 0c9.918 0 18.666-8.746 18.666-18.665L586.629 157.328z" p-id="12175"></path></svg>',
         hotkey: '⌘S',
         async click(element, vditor) {
@@ -250,9 +266,10 @@ topmost: false
     }
     const pasterButton={
         name: 'paste url',
-        tip: "paste",
+        tip: "paster url",
         icon: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="16" height="16" ><path d="M128 184c0-30.879 25.122-56 56-56h136V56c0-13.255-10.745-24-24-24h-80.61C204.306 12.89 183.637 0 160 0s-44.306 12.89-55.39 32H24C10.745 32 0 42.745 0 56v336c0 13.255 10.745 24 24 24h104V184zm32-144c13.255 0 24 10.745 24 24s-10.745 24-24 24-24-10.745-24-24 10.745-24 24-24zm184 248h104v200c0 13.255-10.745 24-24 24H184c-13.255 0-24-10.745-24-24V184c0-13.255 10.745-24 24-24h136v104c0 13.2 10.8 24 24 24zm104-38.059V256h-96v-96h6.059a24 24 0 0 1 16.97 7.029l65.941 65.941a24.002 24.002 0 0 1 7.03 16.971z"/></svg>`,
-        tipPosition: "n",
+        hotkey: '⌘P',
+
         async click(element){
             let text="https://www.baidu.com"
             try {
@@ -295,9 +312,9 @@ topmost: false
         },
         input: (value)=>{
             if(value.trim()!=options.content.trim()){
-                saveContentCache(options)
+                saveContentToCache(options,value.trim())
             }else {
-                clearContentFromCache(options)
+                clearContentFromCache()
             }
         },
         preview: {
@@ -337,7 +354,7 @@ topmost: false
                 name: "more1",
                 icon:`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16"><path d="M4 2a2 2 0 0 0-2 2v8h2V8h2v4h2V4a2 2 0 0 0-2-2H4m0 2h2v2H4m18 9.5V14a2 2 0 0 0-2-2h-4v10h4a2 2 0 0 0 2-2v-1.5a1.54 1.54 0 0 0-1.5-1.5 1.54 1.54 0 0 0 1.5-1.5M20 20h-2v-2h2v2m0-4h-2v-2h2M5.79 21.61l-1.58-1.22 14-18 1.58 1.22z"/></svg>`,
                 toolbar: toolbars1
-            }, githubButton] : toolbars.concat(["headings",...toolbars1,saveButton, pasterButton,githubButton])
+            }, clearCache,githubButton] : toolbars.concat(["headings",...toolbars1,saveButton, pasterButton,clearCache,githubButton])
     }
     const vditor = new Vditor('vditor', config)
 
@@ -346,20 +363,27 @@ topmost: false
     });
 
 
-    async function saveContentCache(options){
+    async function saveContentToCache(options,textValue){
         const key= `${window.location.href}`
-        window.localStorage.setItem(key,options.content.trim())
-
+        window.localStorage.setItem(key,JSON.stringify({sha:options.sha,content:textValue}))
+        $('#wy_cache').attr('fill',cacheState.cached)
     }
 
     async function getContentFromCache(options){
         const key= `${window.location.href}`
-        return window.localStorage.getItem(key)
+        const res=window.localStorage.getItem(key)?JSON.parse(window.localStorage.getItem(key)):null
+        if(res){
+            $('#wy_cache').attr('fill',cacheState.cached)
+        }
+        return res;
     }
 
-    async function clearContentFromCache(options){
+    async function clearContentFromCache(){
         const key= `${window.location.href}`
-        return window.localStorage.removeItem(key)
+        if(!window.localStorage.getItem(key))return false
+        window.localStorage.removeItem(key)
+        $('#wy_cache').attr('fill',cacheState.none)
+        return true
     }
 
 
@@ -396,17 +420,18 @@ topmost: false
         const {owner, repo} = options
         const {path, editMode, type} = options;
         const  auth=getAccessToken(options)
+        let  res = await getContentFromCache(options);
         if (editMode) {
-            const res = await axiosGithub.get(`/repos/${owner}/${repo}/contents/${path}`,{
+            !res&&(res = await axiosGithub.get(`/repos/${owner}/${repo}/contents/${path}`,{
                 headers: {
                     Authorization: `token ${auth}`
                 }
-            });
+            }))
             const {data: {content, sha}} = res
-            return {content: Base64.decode(content), sha}
+            return {content: res?content:Base64.decode(content), sha}
 
         } else {
-            return {content: defaultText(type), sha: ""}
+            return res||{content: defaultText(type), sha: ""}
         }
     }
 
@@ -531,6 +556,7 @@ topmost: false
             success("保存成功！")
             options.content = comment
             options.sha=res.data.content.sha
+            clearContentFromCache()
         }else {
             throw new Error("文件sha没获取到")
         }
