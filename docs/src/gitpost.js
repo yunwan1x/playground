@@ -371,7 +371,11 @@ topmost: false
 
     async function getContentFromCache(options){
         const key= `${window.location.href}`
-        const res=window.localStorage.getItem(key)?JSON.parse(window.localStorage.getItem(key)):null
+        let res=null
+        try {
+            res = JSON.parse(window.localStorage.getItem(key))
+        } catch (e) {
+        }
         if(res){
             $('#wy_cache').attr('fill',cacheState.cached)
         }
