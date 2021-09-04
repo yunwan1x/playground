@@ -1,4 +1,4 @@
-## PWA进阶
+## PWA使用
 1. manifest 文件
 
 ```json
