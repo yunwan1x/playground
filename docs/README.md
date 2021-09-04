@@ -44,7 +44,9 @@
 }
 
 ```
+
 2. 安装sw.js
+
 ```javascript
    if (typeof navigator.serviceWorker !== 'undefined') {
         navigator.serviceWorker.register('sw.js')
