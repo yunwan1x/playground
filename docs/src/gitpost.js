@@ -341,7 +341,6 @@ topmost: false
             } catch (e) {
                 showGitHubErrorInfo(e)
             }
-            $('svg path').attr('fill',cacheState.none)
         },
         toolbar: window.screen.width < 500 ? [
             'headings',
