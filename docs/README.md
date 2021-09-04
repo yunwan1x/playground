@@ -3,8 +3,8 @@
 
 ```json
 {
-  "name": "彩虹糖",
-  "short_name": "candy",
+  "name": "playground",
+  "short_name": "playground",
   "start_url": ".",
   "display": "standalone",
   "background_color": "#0e932e",
