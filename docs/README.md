@@ -51,6 +51,7 @@
     }
 ```
 3. sw.js内容
+
 ```javascript
 /* ===========================================================
  * docsify sw.js
@@ -135,7 +136,6 @@ self.addEventListener('fetch', event => {
         )
     }
 })
-
 ```
 
 ## 资源
