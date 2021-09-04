@@ -4,7 +4,7 @@
   "start_url": ".",
   "display": "standalone",
   "background_color": "#0e932e",
-  "description": "A readable Hacker News app.",
+  "description": "实验室，做各种文档和实验",
   "icons": [{
     "src": "images/微软_icon48.png",
     "sizes": "48x48",
