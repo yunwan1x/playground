@@ -48,9 +48,9 @@
 2. 安装sw.js
 
 ```javascript
-   if (typeof navigator.serviceWorker !== 'undefined') {
-        navigator.serviceWorker.register('sw.js')
-    }
+if (typeof navigator.serviceWorker !== 'undefined') {
+    navigator.serviceWorker.register('sw.js')
+}
 ```
 
 3. sw.js内容
