@@ -425,14 +425,16 @@ topmost: false
         const {path, editMode, type} = options;
         const  auth=getAccessToken(options)
         let  res = await getContentFromCache(options);
+
         if (editMode) {
-            !res&&(res = await axiosGithub.get(`/repos/${owner}/${repo}/contents/${path}`,{
+            const cached=res?true:false
+            !cached&&(res = await axiosGithub.get(`/repos/${owner}/${repo}/contents/${path}`,{
                 headers: {
                     Authorization: `token ${auth}`
                 }
             }))
             const {data: {content, sha}} = res
-            return {content: res?content:Base64.decode(content), sha}
+            return {content: cached?content:Base64.decode(content), sha}
 
         } else {
             return res||{content: defaultText(type), sha: ""}
