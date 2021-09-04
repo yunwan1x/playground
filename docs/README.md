@@ -1,5 +1,6 @@
 ## PWA进阶
 1. manifest 文件
+
 ```json
 {
   "name": "彩虹糖",
@@ -42,7 +43,6 @@
     "url": "https://play.google.com/store/apps/details?id=cheeaun.hackerweb"
   }]
 }
-
 ```
 
 2. 安装sw.js
