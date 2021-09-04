@@ -50,6 +50,7 @@
         navigator.serviceWorker.register('sw.js')
     }
 ```
+
 3. sw.js内容
 
 ```javascript
