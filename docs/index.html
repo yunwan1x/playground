@@ -44,6 +44,7 @@
             //     'https://raw.githubusercontent.com/docsifyjs/docsify/master/CHANGELOG',
             // '/.*/_sidebar.md': './docs/_sidebar.md',
         },
+        // homepage:'https://raw.githubusercontent.com/docsifyjs/docsify/master/README.md',
         name: "Playground &#128175;",
 //         repo: "yunwan1x/gitpod",
         // auto2top: true,
@@ -65,7 +66,6 @@
             placeholder: {
                 '/': '搜索',
             },
-            pathNamespaces: ["/"]
         },
         pagination: {
             previousText: "上一章节",
@@ -115,44 +115,29 @@
         },
         'flexible-alerts': {
             note: {
-                label: "Hinweis"
+                label: "提示"
             },
             tip: {
-                label: "Tipp"
+                label: "成功"
             },
             warning: {
-                label: "Warnung"
+                label: "警告"
             },
             attention: {
-                label: "Achtung"
+                label: "危险"
             }
         },
-        themeable: {
-            readyTransition : true, // default
-            responsiveTables: true  // default
-        },
-        vueComponents: {
-            'button-counter': {
-                template: `
-        <button @click="count += 1">
-          You clicked me {{ count }} times
-        </button>
-      `,
-                data() {
-                    return {
-                        count: 0,
-                    };
-                },
-            },
-        },
+
+
     };
 </script>
 
 <!-- Docsify v4 -->
-<script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+<script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
+
 <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-java.min.js"></script>
 <script src="//cdn.jsdelivr.net/npm/docsify-copy-code@2.1.1/dist/docsify-copy-code.min.js"></script>
-<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
 <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
 <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
 <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
@@ -166,5 +151,7 @@
 <script src="https://cdn.jsdelivr.net/npm/docsify-plugin-flexible-alerts@1.1.0/dist/docsify-plugin-flexible-alerts.min.js"></script>
 <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/external-script.min.js"></script>
 <script src="//cdn.jsdelivr.net/npm/vue@3/dist/vue.global.prod.js"></script>
+<script src="/js/global.js"></script>
+
 </body>
 </html>
