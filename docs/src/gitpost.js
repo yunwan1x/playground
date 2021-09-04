@@ -293,6 +293,13 @@ topmost: false
         outline: {
             enable: true
         },
+        input: (value)=>{
+            if(value.trim()!=options.content.trim()){
+                saveContentCache(options)
+            }else {
+                clearContentFromCache(options)
+            }
+        },
         preview: {
             markdown: {
                 codeBlockPreview: false,
@@ -337,6 +344,24 @@ topmost: false
     $(window).resize(function () {
         vditor.vditor.element.style.height = window.innerHeight + "px";
     });
+
+
+    async function saveContentCache(options){
+        const key= `${window.location.href}`
+        window.localStorage.setItem(key,options.content.trim())
+
+    }
+
+    async function getContentFromCache(options){
+        const key= `${window.location.href}`
+        return window.localStorage.getItem(key)
+    }
+
+    async function clearContentFromCache(options){
+        const key= `${window.location.href}`
+        return window.localStorage.removeItem(key)
+    }
+
 
 
     async function init(options) {
