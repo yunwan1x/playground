@@ -433,7 +433,7 @@ topmost: false
                     Authorization: `token ${auth}`
                 }
             }))
-            const {data: {content, sha}} = res
+            const {content, sha} = cached?res:res.data
             return {content: cached?content:Base64.decode(content), sha}
 
         } else {
