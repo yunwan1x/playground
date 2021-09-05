@@ -5,8 +5,15 @@ const TerserPlugin = require("terser-webpack-plugin");
 module.exports = {
     mode: 'development',
     optimization: {
-        minimize: false,
-        minimizer: [new TerserPlugin()],
+        minimize: true,
+        minimizer: [new TerserPlugin({terserOptions:{
+            module: true,
+            compress: {},
+            mangle: {},
+            output: {},
+            parse: {},
+            rename: {},
+        }})],
     },
     entry: './docs/src/gitpost.js',
     output: {
