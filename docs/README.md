@@ -2,6 +2,7 @@
 
 > 参考：
 > 
+>  1. [workbox](https://developers.google.com/web/tools/workbox/guides/get-started)
 >  1. [MDN](https://developer.mozilla.org/zh-CN/docs/Web/Manifest)    
 >  1. [service worker api](https://developer.mozilla.org/zh-CN/docs/Web/API/Service_Worker_API)
 >  3. [service worker使用](https://developer.mozilla.org/zh-CN/docs/Web/API/Service_Worker_API/Using_Service_Workers)
