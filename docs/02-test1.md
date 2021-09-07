@@ -1,1 +1,4 @@
-# abc
+# sofaboot @value注解解析
+PropertySourcesPlaceholderConfigurer：getproperty->
+SystemEnvironmentPropertySource ->
+ConfigurationPropertySourcesPropertyResolver->getProperty->findPropertyValue
