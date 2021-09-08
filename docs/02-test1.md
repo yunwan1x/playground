@@ -2,3 +2,5 @@
 PropertySourcesPlaceholderConfigurer：getproperty->
 SystemEnvironmentPropertySource ->
 ConfigurationPropertySourcesPropertyResolver->getProperty->findPropertyValue
+
+# idea加arthas调试技能
