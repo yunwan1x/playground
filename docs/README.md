@@ -1,6 +1,6 @@
 # PWA
 
-> 参考：
+> 参考：pwa是什么。
 > 
 >  1. [workbox](https://developers.google.com/web/tools/workbox/guides/get-started)
 >  1. [MDN](https://developer.mozilla.org/zh-CN/docs/Web/Manifest)    
