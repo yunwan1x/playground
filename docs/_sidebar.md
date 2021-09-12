@@ -8,8 +8,12 @@
   * [钻石](incubator/钻石.md)
   * [黑钻](incubator/黑钻.md)
 * 研究院
+  * [黑钻](incubator/黑钻.md)
 * 商业&经济
+  * [黑钻](incubator/黑钻.md)
 * 文明
+  * [黑钻](incubator/黑钻.md)
 * 涅槃
+  * [黑钻](incubator/黑钻.md)
 
 
