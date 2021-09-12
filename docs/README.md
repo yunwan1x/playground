@@ -1,4 +1,5 @@
 # 开发工具
+
 1. [hotswap-agent-intellij-plugin](https://github.com/dmitry-zhuravlev/hotswap-agent-intellij-plugin)
 2. [arthas](https://arthas.aliyun.com/doc/advanced-use.html), 以及[github](https://github.com/alibaba/arthas)
 3. mybatis 自动生成插件
@@ -9,10 +10,11 @@
 8. 分析建模
 9. 建模
 10. 采集监控
+11. 测试
 
 # 调试
+
 ```bash
 
 python3 -m http.server 3000 --bind 127.0.0.1  --directory docs
-``` 
-
+```
