@@ -10,4 +10,9 @@
 9. 建模
 10. 采集监控
 
+# 调试
+```bash
+
+python -m http.server 3000 --bind 127.0.0.1  --directory docs
+``` 
 
