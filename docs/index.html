@@ -85,14 +85,13 @@
                             .replace(/\/main/, "/blob/main");
                     } else {
                         githubUrl = "https://github.com/yunwan1x/playground/blob/master/docs/" + vm.route.file;
-                        url = "https://yunwan1x.github.io/edit.html#repo=my-document&path=docs/" + vm.route.file;
+                        url = "https://yunwan1x.github.io/edit.html#repo=playground&path=docs/" + vm.route.file;
 
                     }
 
-                    const github = `[GitHub](${url})`;
-
-                    const candyEdit=`[candyEdit](${githubUrl})`
-                    const editHtml = `:memo: 在 ${github} 编辑 / 在 ${candyEdit} 编辑 <br />`;
+                    const github = `[GitHub](${githubUrl})`;
+                    const candyEdit=`[candyEdit](${url})`
+                    const editHtml = `:memo: 在 ${candyEdit} 编辑 / 在 ${github} 编辑 <br /><br />`;
 
 
                     if (vm.route.path == "/") {
