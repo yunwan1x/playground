@@ -15,7 +15,7 @@ module.exports = {
             rename: {},
         }})],
     },
-    entry: './docs/src/gitpost.js',
+    entry: './docs/res/gitpost.js',
     output: {
         filename: 'gitpost.js',
         path: path.resolve(__dirname, 'public'),
