@@ -13,6 +13,6 @@
 # 调试
 ```bash
 
-python -m http.server 3000 --bind 127.0.0.1  --directory docs
+python3 -m http.server 3000 --bind 127.0.0.1  --directory docs
 ``` 
 
