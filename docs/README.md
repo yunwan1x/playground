@@ -9,7 +9,7 @@
 7. [jrebel和arebel](https://www.jianshu.com/p/24e817e47a84)
 8. 分析建模
 9. 建模
-10. 采集监控
+10. 采集监控，https://docs.sentry.io/
 11. 测试
 
 # 调试
