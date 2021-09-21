@@ -10,6 +10,7 @@
 8. 分析建模
 9. 建模
 10. 采集监控，https://docs.sentry.io/
+11. [mybaties代码生成](https://mp.weixin.qq.com/s/nlXc4ZfBAeqflxmZ5cOidQ)
 
 # 调试
 
