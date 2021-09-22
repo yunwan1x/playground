@@ -23,11 +23,11 @@ python3 -m http.server 3000 --bind 127.0.0.1  --directory docs
 
 ```bash
 
-nmap
-telnet
-ssh
+nmap pv read  rsync scp sar screen tmux
+telnet script sort source strace 
+ssh ssh-agent ssh-keygen ssh-keyscan
 openssl
-socat
+socat tr time tee tcpdump tar zip tail head stty sleep scriptreplay host id
 mc
 ip
 find
