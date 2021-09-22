@@ -18,3 +18,30 @@
 
 python3 -m http.server 3000 --bind 127.0.0.1  --directory docs
 ```
+
+# command
+
+```bash
+
+nmap
+telnet
+ssh
+openssl
+socat
+mc
+ip
+find
+which
+lsof
+htop
+top
+free
+du
+df
+mount
+nc
+sed
+awk
+grep
+
+```
