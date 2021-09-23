@@ -45,3 +45,7 @@ awk
 grep
 
 ```
+
+# 杂项
+
+* [mac使用gnu命令](https://blog.cotes.info/posts/use-gnu-utilities-in-mac/)
