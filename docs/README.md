@@ -64,5 +64,5 @@ ssh -t command
 # 常用命令
 
 ```bash
-echo {1..10}|xargs -n 1 -t -I {} echo {}
+echo {1..10}|xargs -n 1 -t  echo 
 ```
