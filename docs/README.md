@@ -55,3 +55,4 @@ ssh -t command
 # 杂项
 
 * [mac使用gnu命令](https://blog.cotes.info/posts/use-gnu-utilities-in-mac/)
+* 清除dns缓存 chrome , [runoob](https://www.runoob.com/w3cnote/chrome-clear-dns-cache.html)
