@@ -46,6 +46,12 @@ grep
 
 ```
 
+# ssh命令完全解析
+
+```bash
+ssh -t command
+```
+
 # 杂项
 
 * [mac使用gnu命令](https://blog.cotes.info/posts/use-gnu-utilities-in-mac/)
