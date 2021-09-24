@@ -59,3 +59,4 @@ ssh -t command
   * 强制清空， 鼠标左键按住刷新按钮不放弹出子菜单，强制刷新
   * 浏览器缓存参考[认识浏览器缓存](https://segmentfault.com/a/1190000009970329)，查看浏览器缓存[查看缓存](https://blog.csdn.net/yerenyuan_pku/article/details/88881967)
   * chrome://about/
+*
