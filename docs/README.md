@@ -56,3 +56,4 @@ ssh -t command
 
 * [mac使用gnu命令](https://blog.cotes.info/posts/use-gnu-utilities-in-mac/)
 * 清除dns缓存 chrome , [runoob](https://www.runoob.com/w3cnote/chrome-clear-dns-cache.html)
+  * 强制清空， 鼠标左键按住刷新按钮不放弹出子菜单，强制刷新
