@@ -50,6 +50,9 @@ grep
 
 ```bash
 ssh -t command
+ssh-copy-id
+sshpass
+ssh-agent
 ```
 
 # 杂项
@@ -66,4 +69,5 @@ ssh -t command
 ```bash
 # xargs参考 [ruanyifeng](https://www.ruanyifeng.com/blog/2019/08/xargs-tutorial.html)
 echo {1..10}|xargs -n 1 -t  echo 
+paralell 并发执行
 ```
