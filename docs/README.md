@@ -60,3 +60,9 @@ ssh -t command
   * 浏览器缓存参考[认识浏览器缓存](https://segmentfault.com/a/1190000009970329)，查看浏览器缓存[查看缓存](https://blog.csdn.net/yerenyuan_pku/article/details/88881967)
   * chrome://about/
 *
+
+# 常用命令
+
+```bash
+echo {1..10}|xargs -n 1 -t -I {} echo {}
+```
