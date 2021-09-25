@@ -60,3 +60,7 @@ mosh，替代ssh的
 2. paralell 并发执行
 3. bash模式扩展，https://wangdoc.com/bash/expansion.html
 ```
+
+# 好博客
+
+1. [hi-linux](https://www.hi-linux.com/categories/Linux/)
