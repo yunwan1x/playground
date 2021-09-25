@@ -59,6 +59,7 @@ mosh，替代ssh的
 1. echo {1..10}|xargs -n 1 -t  echo 
 2. paralell 并发执行
 3. bash模式扩展，https://wangdoc.com/bash/expansion.html
+4. navi命令行工具 https://github.com/denisidoro/navi
 ```
 
 # 好博客
