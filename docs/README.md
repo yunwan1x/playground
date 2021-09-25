@@ -39,6 +39,7 @@ ssh -t command
 ssh-copy-id
 sshpass
 ssh-agent
+mosh，替代ssh的
 ```
 
 # 杂项
