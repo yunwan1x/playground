@@ -1,17 +1,3 @@
-# 开发工具
-
-1. [hotswap-agent-intellij-plugin](https://github.com/dmitry-zhuravlev/hotswap-agent-intellij-plugin)
-2. [arthas](https://arthas.aliyun.com/doc/advanced-use.html), 以及[github](https://github.com/alibaba/arthas)
-3. mybatis 自动生成插件
-4. json生成实体类
-5. 持续集成
-6. 调试
-7. [jrebel和arebel](https://www.jianshu.com/p/24e817e47a84)
-8. 分析建模
-9. 建模
-10. 采集监控，https://docs.sentry.io/
-11. [mybaties代码生成](https://mp.weixin.qq.com/s/nlXc4ZfBAeqflxmZ5cOidQ)
-
 # 调试
 
 ```bash
@@ -68,6 +54,7 @@ ssh-agent
 
 ```bash
 # xargs参考 [ruanyifeng](https://www.ruanyifeng.com/blog/2019/08/xargs-tutorial.html)
-echo {1..10}|xargs -n 1 -t  echo 
-paralell 并发执行
+1. echo {1..10}|xargs -n 1 -t  echo 
+2. paralell 并发执行
+3. bash扩展，https://wangdoc.com/bash/expansion.html
 ```
