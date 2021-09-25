@@ -5,33 +5,6 @@
 python3 -m http.server 3000 --bind 127.0.0.1  --directory docs
 ```
 
-# command
-
-```bash
-
-nmap pv read  rsync scp sar screen tmux
-telnet script sort source strace 
-ssh ssh-agent ssh-keygen ssh-keyscan
-openssl
-socat tr time tee tcpdump tar zip tail head stty sleep scriptreplay host id
-mc
-ip
-find
-which
-lsof
-htop
-top
-free
-du
-df
-mount
-nc
-sed
-awk
-grep
-
-```
-
 # ssh命令完全解析
 
 ```bash
@@ -49,6 +22,8 @@ mosh，替代ssh的
   * 强制清空， 鼠标左键按住刷新按钮不放弹出子菜单，强制刷新
   * 浏览器缓存参考[认识浏览器缓存](https://segmentfault.com/a/1190000009970329)，查看浏览器缓存[查看缓存](https://blog.csdn.net/yerenyuan_pku/article/details/88881967)
   * chrome://about/
+* 证书
+  * mkcert创建本地可信证书
 * k8s调试
   * [hi-linux](https://www.hi-linux.com/posts/21833.html)
 
