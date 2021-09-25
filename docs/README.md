@@ -26,7 +26,7 @@ pv  pipeline view可以查看管道进度
 * 证书
   * mkcert创建本地可信证书
 * k8s调试
-  * [hi-linux](https://www.hi-linux.com/posts/21833.html)
+  * [Telepresence](https://www.hi-linux.com/posts/21833.html)
   * sshuttle虚拟隧道，利用ssh构建虚拟隧道。
 
 # 常用命令
