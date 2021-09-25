@@ -5,7 +5,7 @@
 python3 -m http.server 3000 --bind 127.0.0.1  --directory docs
 ```
 
-# ssh命令完全解析
+# 每天认识一个新命令
 
 ```bash
 ssh -t command
@@ -13,6 +13,7 @@ ssh-copy-id
 sshpass
 ssh-agent
 mosh，替代ssh的
+pv  pipeline view可以查看管道进度
 ```
 
 # 杂项
