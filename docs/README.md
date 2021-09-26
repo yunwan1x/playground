@@ -28,6 +28,7 @@ pv  pipeline view可以查看管道进度
 * k8s调试
   * [Telepresence](https://www.hi-linux.com/posts/21833.html)
   * sshuttle虚拟隧道，利用ssh构建虚拟隧道。
+* [mvn 包冲突解决](https://segmentfault.com/a/1190000023446358)
 
 # 常用命令
 
