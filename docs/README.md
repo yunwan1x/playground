@@ -29,6 +29,7 @@ pv  pipeline view可以查看管道进度
   * [Telepresence](https://www.hi-linux.com/posts/21833.html)
   * sshuttle虚拟隧道，利用ssh构建虚拟隧道。
 * [mvn 包冲突解决](https://segmentfault.com/a/1190000023446358)
+* `crontab 支持重启运行脚本，语法如下@reboot /root/script/restart.sh `
 
 # 常用命令
 
