@@ -14,6 +14,7 @@ sshpass
 ssh-agent
 mosh，替代ssh的
 pv  pipeline view可以查看管道进度
+忽略knownhosts
 ```
 
 # 杂项
