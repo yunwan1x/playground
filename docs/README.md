@@ -35,6 +35,7 @@ pv  pipeline view可以查看管道进度
 * [mvn 包冲突解决](https://segmentfault.com/a/1190000023446358)
 * `crontab 支持重启运行脚本，语法如下@reboot /root/script/restart.sh `
 * raesene/alpine-nettools:latest ，[仓库](https://github.com/fedora-cloud/Fedora-Dockerfiles/tree/master/ssh)
+* [coreos](https://book.douban.com/subject/26670565/)
 
 # 常用命令
 
