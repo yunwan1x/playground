@@ -37,6 +37,8 @@ pv  pipeline view可以查看管道进度
 * raesene/alpine-nettools:latest ，[仓库](https://github.com/fedora-cloud/Fedora-Dockerfiles/tree/master/ssh)
 * [coreos](https://book.douban.com/subject/26670565/)
 
+  * [docker coreos](https://github.com/wenshunbiao/docker)
+
 # 常用命令
 
 ```bash
