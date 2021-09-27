@@ -293,8 +293,8 @@ topmost: false
         },
         toolbar: [loginButton]
     }
-    const toolbars = [ "bold", "italic", "strike", "line", "quote", "list", "ordered-list", "check", "code", "inline-code", "link", "table",]
-    const toolbars1=["undo", "redo", "edit-mode", "both", "preview", "outline", "code-theme", "content-theme", "export"]
+    const toolbars = [ "bold", "italic", "strike", "line", "quote", "list", "ordered-list", "check", "code", "inline-code", "link", "table"]
+    const toolbars1=["outdent" ,"indent","undo", "redo", "edit-mode", "both", "preview", "outline", "code-theme", "content-theme", "export"]
     const config = {
         toolbarConfig: {
             pin: true,
