@@ -38,6 +38,7 @@ pv  pipeline view可以查看管道进度
 * [coreos](https://book.douban.com/subject/26670565/)
 
   * [docker coreos](https://github.com/wenshunbiao/docker)
+* mac上替换docker工具 ，[lima](https://segmentfault.com/a/1190000040633750)
 
 # 常用命令
 
