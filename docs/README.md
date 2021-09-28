@@ -15,6 +15,7 @@ ssh-agent
 mosh，替代ssh的
 pv  pipeline view可以查看管道进度
 忽略knownhosts
+ssh证书登录 [ruanyifeng](https://www.ruanyifeng.com/blog/2020/07/ssh-certificate.html)
 ```
 
 # 杂项
