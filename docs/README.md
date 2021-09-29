@@ -57,3 +57,4 @@ ssh证书登录 [ruanyifeng](https://www.ruanyifeng.com/blog/2020/07/ssh-certifi
 1. [hi-linux](https://www.hi-linux.com/categories/Linux/)
 2. [yiyi bash手册](https://yiyibooks.cn/Phiix/bash_reference_manual/bash%E5%8F%82%E8%80%83%E6%96%87%E6%A1%A3.html)
 3. [文档整篇翻译](https://zhuanlan.zhihu.com/p/37359779)
+4. [linux shell编程指南](http://c.biancheng.net/shell/)
