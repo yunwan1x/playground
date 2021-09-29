@@ -41,6 +41,7 @@ ssh证书登录 [ruanyifeng](https://www.ruanyifeng.com/blog/2020/07/ssh-certifi
 
   * [docker coreos](https://github.com/wenshunbiao/docker)
 * mac上替换docker工具 ，[lima](https://segmentfault.com/a/1190000040633750)
+* [shell进程替换](http://c.biancheng.net/view/3025.html)
 
 # 常用命令
 
