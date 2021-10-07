@@ -77,3 +77,4 @@ ssh证书登录 [ruanyifeng](https://www.ruanyifeng.com/blog/2020/07/ssh-certifi
 11. anytxt
 12. anlink
 13. Giphy Capture
+14. 妙手ocr
