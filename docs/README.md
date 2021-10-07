@@ -61,3 +61,7 @@ ssh证书登录 [ruanyifeng](https://www.ruanyifeng.com/blog/2020/07/ssh-certifi
 4. [linux shell编程指南](http://c.biancheng.net/shell/)
 5. [linux系统管理](http://c.biancheng.net/linux_tutorial/)
 6. [并发网](https://www.zhihu.com/answer/2157140104)
+
+# 碎碎念
+
+1. quicklook预览
