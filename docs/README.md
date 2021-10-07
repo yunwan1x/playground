@@ -65,3 +65,15 @@ ssh证书登录 [ruanyifeng](https://www.ruanyifeng.com/blog/2020/07/ssh-certifi
 # 碎碎念
 
 1. quicklook预览
+2. 录屏神器BandiCam
+3. mype支持网络功能的pe
+4. geek uninstall
+5. 星愿浏览器
+6. 小丸工具箱
+7. capslock+
+8. deskreen投屏共享
+9. gimp代替PS
+10. spacesniffer 查看磁盘占用
+11. anytxt
+12. anlink
+13. Giphy Capture
