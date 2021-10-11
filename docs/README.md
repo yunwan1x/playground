@@ -89,3 +89,5 @@ ssh证书登录 [ruanyifeng](https://www.ruanyifeng.com/blog/2020/07/ssh-certifi
 [idea好用的插件](https://zhuanlan.zhihu.com/p/412956073)
 
 [zhihu](https://zhuanlan.zhihu.com/p/130733659)
+
+restfultookit插件自动生成请求
