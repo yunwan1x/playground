@@ -81,3 +81,9 @@ ssh证书登录 [ruanyifeng](https://www.ruanyifeng.com/blog/2020/07/ssh-certifi
 14. 妙手ocr
 15. BookxNote Pro
 16. potplayer
+
+# idea插件
+
+[40款idea插件](https://zhuanlan.zhihu.com/p/412113632)
+
+[idea好用的插件](https://zhuanlan.zhihu.com/p/412956073)
