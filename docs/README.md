@@ -43,6 +43,7 @@ ssh证书登录 [ruanyifeng](https://www.ruanyifeng.com/blog/2020/07/ssh-certifi
 * mac上替换docker工具 ，[lima](https://segmentfault.com/a/1190000040633750)
 * [shell进程替换](http://c.biancheng.net/view/3025.html)
 * 时区处理[cnblogs](https://www.cnblogs.com/yourbatman/p/14307194.html)
+* [osquery工具](https://os.51cto.com/art/202001/609160.htm)
 
 # 常用命令
 
