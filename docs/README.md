@@ -45,6 +45,7 @@ ssh证书登录 [ruanyifeng](https://www.ruanyifeng.com/blog/2020/07/ssh-certifi
 * 时区处理[cnblogs](https://www.cnblogs.com/yourbatman/p/14307194.html)
 * [osquery工具](https://os.51cto.com/art/202001/609160.htm)
 * git worktree
+* utools 工具箱查看自己ip以及公网ip
 
 # 常用命令
 
