@@ -96,3 +96,5 @@ ssh证书登录 [ruanyifeng](https://www.ruanyifeng.com/blog/2020/07/ssh-certifi
 restfultookit插件自动生成请求
 
 [idea好用插件](https://mp.weixin.qq.com/s/AxaQz9OyYmYs_L8Ef2kqJw)
+
+[好用的命令行工具](https://mp.weixin.qq.com/s/ZTMwK5r1d2abXcOtnu6nEA)
