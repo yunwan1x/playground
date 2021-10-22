@@ -1,5 +1,6 @@
 * 研发效能
   * [工具篇](graduation/研发效能.md)
+  * [linux命令行篇](linux/tools.md)
 * 孵化器
   * [黑铁](incubator/黑铁.md)
   * [青铜](incubator/青铜.md)
