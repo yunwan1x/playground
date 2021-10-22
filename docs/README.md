@@ -18,6 +18,10 @@ pv  pipeline view可以查看管道进度
 ssh证书登录 [ruanyifeng](https://www.ruanyifeng.com/blog/2020/07/ssh-certificate.html)
 ```
 
+
+
+每天认识一个新命令： https://einverne.github.io/post/2019/08/fzf-usage.html
+
 # 杂项
 
 * [mac使用gnu命令](https://blog.cotes.info/posts/use-gnu-utilities-in-mac/)
