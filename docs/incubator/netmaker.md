@@ -51,8 +51,9 @@ volumes:
   dnsconfig: {}
 ```
 
-1. [netmaker](https://github.com/gravitl/netmaker)
-2. [netclient](https://github.com/gravitl/netmaker/releases)
-3. [coredns](https://github.com/SekoiaLab/netmaker-coredns)
-4. [netmaker-ui](https://github.com/mattkasun/netmaker-gui)
-5. [wireguard](https://www.wireguard.com/install/#macos-app-store)
+1. [quickinstall](https://docs.netmaker.org/server-installation.html)
+2. [netmaker](https://github.com/gravitl/netmaker)
+3. [netclient](https://github.com/gravitl/netmaker/releases)
+4. [coredns](https://github.com/SekoiaLab/netmaker-coredns)
+5. [netmaker-ui](https://github.com/mattkasun/netmaker-gui)
+6. [wireguard](https://www.wireguard.com/install/#macos-app-store)
