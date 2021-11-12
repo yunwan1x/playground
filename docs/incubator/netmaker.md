@@ -55,3 +55,4 @@ volumes:
 2. [netclient](https://github.com/gravitl/netmaker/releases)
 3. [coredns](https://github.com/SekoiaLab/netmaker-coredns)
 4. [netmaker-ui](https://github.com/mattkasun/netmaker-gui)
+5. [wireguard](https://www.wireguard.com/install/#macos-app-store)
