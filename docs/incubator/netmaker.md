@@ -65,3 +65,4 @@ volumes:
 2. tailscale
 3. [tinc](https://chanix.github.io/TincCookbook/)
 4. [GOST](https://github.com/ginuerzh/gost)
+5. [frp](https://github.com/fatedier/frp)
