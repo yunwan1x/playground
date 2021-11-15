@@ -64,3 +64,4 @@ volumes:
 1. [n2n](https://530503.xyz/articles/2021/01/11/1610357767246.html)
 2. tailscale
 3. [tinc](https://chanix.github.io/TincCookbook/)
+4. [GOST](https://github.com/ginuerzh/gost)
