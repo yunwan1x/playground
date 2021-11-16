@@ -66,6 +66,25 @@ volumes:
 4. [GOST](https://github.com/ginuerzh/gost)
 5. [frp](https://github.com/fatedier/frp)
 
-# tailscale自建中继节点
+# tailscale derp
 
 [docker镜像](https://hub.docker.com/r/chestnutprog/derper) , 用如下配置配置管理台setting
+
+```json
+ "ACLs": [
+    // Match absolutely everything. Comment out this section if you want
+    // to define specific ACL restrictions.
+    { "Action": "accept", "Users": ["*"], "Ports": ["*:*"] },
+  ],
+  "derpMap": {
+    "Regions": { "900": {
+      "RegionID": 900,
+      "RegionCode": "myderp",
+      "Nodes": [{
+          "Name": "1",
+          "RegionID": 900,
+          "HostName":"yourhostname.com",
+      }]
+    }}
+  }
+```
