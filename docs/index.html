@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./res/css/vue.css">
     <link rel="icon" type="image/png" sizes="32x32" href="res/images/linux16.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="res/images/linux32.png" />
+    <link rel="stylesheet" href="https://unpkg.com/docsify-toc@1.0.0/dist/toc.css">
 
 
     <style>
@@ -74,6 +75,11 @@
 <div id="app">加载中...</div>
 <script>
     window.$docsify = {
+        toc: {
+            scope: '.markdown-section',
+            headings: 'h1, h2, h3, h4, h5, h6',
+            title: 'Table of Contents',
+        },
         alias: {
             // '/foo/(.*)': '/bar/$1',
             // '/zh-cn/changelog': '/changelog',
@@ -197,6 +203,7 @@
 <script src="//cdn.jsdelivr.net/npm/vue@3/dist/vue.global.prod.js"></script>
 <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
 <script src="./res/js/global.js"></script>
+<script src="https://unpkg.com/docsify-toc@1.0.0/dist/toc.js"></script>
 
 </body>
 </html>
