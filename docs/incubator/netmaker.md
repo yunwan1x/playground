@@ -58,7 +58,6 @@ volumes:
 5. [netmaker-ui](https://github.com/mattkasun/netmaker-gui)
 6. [wireguard](https://www.wireguard.com/install/#macos-app-store)
 
-
 # 其他的vpn工具
 
 1. [n2n](https://530503.xyz/articles/2021/01/11/1610357767246.html)
@@ -66,3 +65,7 @@ volumes:
 3. [tinc](https://chanix.github.io/TincCookbook/)
 4. [GOST](https://github.com/ginuerzh/gost)
 5. [frp](https://github.com/fatedier/frp)
+
+# tailscale自建中继节点
+
+[docker镜像](https://hub.docker.com/r/chestnutprog/derper) , 用如下配置配置管理台setting
