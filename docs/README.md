@@ -112,3 +112,7 @@ restfultookit插件自动生成请求
 # k8s集群备份
 
 1. [weixin](https://mp.weixin.qq.com/s?__biz=MzI3MTI2NzkxMA==&mid=2247502728&idx=1&sn=04c17852082d9b03c0a95e8aab5bd8c9&chksm=eac6eaa1ddb163b7ed29bc0544d3accd499b30bfbf473df3bddd50bc67818f1a492e3f5ec07d&scene=90&subscene=93&sessionid=1638615728&clicktime=1638632572&enterid=1638632572&ascene=56&devicetype=android-29&version=28001057&nettype=WIFI&abtest_cookie=AAACAA%3D%3D&lang=zh_CN&exportkey=AS%2B8poSLqCU8Tu9SgC8Bbek%3D&pass_ticket=4DYMfcFTRRWaKypm%2FBcWLDbNqNBNLwWrBSH%2FeuGLIwnbVEno1xokT2g8AwPZ4ADu&wx_header=1)
+
+# 杂项
+
+1. [vim自动补全](https://zhuanlan.zhihu.com/p/349271041)
