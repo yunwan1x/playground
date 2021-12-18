@@ -7,6 +7,7 @@
 1. [arch linux wiki](https://wiki.archlinux.org/title/Table_of_contents_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87))
 2. [redhat wiki](https://access.redhat.com/documentation/zh-cn/red_hat_enterprise_linux/7)
 3. [ubuntu wiki](https://wiki.ubuntu.org.cn/UbuntuManual)
+4. [linux参考学习](http://c.biancheng.net/linux_tutorial/)
 
 # command wiki
 
@@ -20,6 +21,7 @@
 
 1. [bash参考手册](https://xy2401.com/local-docs/gnu/manual.zh/bash.html)
 2. [菜鸟教程](https://www.runoob.com/linux/linux-shell.html)
+3.
 
 # 每天一个命令行
 
