@@ -1,9 +1,12 @@
 # linux仓库
 
 1. [repos](https://pkgs.org/)
-2. [arch linux wiki](https://wiki.archlinux.org/title/Table_of_contents_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87))
-3. [redhat wiki](https://access.redhat.com/documentation/zh-cn/red_hat_enterprise_linux/7)
-4. [ubuntu wiki](https://wiki.ubuntu.org.cn/UbuntuManual)
+
+# wiki
+
+1. [arch linux wiki](https://wiki.archlinux.org/title/Table_of_contents_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87))
+4. [redhat wiki](https://access.redhat.com/documentation/zh-cn/red_hat_enterprise_linux/7)
+5. [ubuntu wiki](https://wiki.ubuntu.org.cn/UbuntuManual)
 
 # 每天一个命令行
 
