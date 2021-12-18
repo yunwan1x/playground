@@ -19,6 +19,7 @@
 # bash
 
 1. [bash参考手册](https://xy2401.com/local-docs/gnu/manual.zh/bash.html)
+2. [菜鸟教程](https://www.runoob.com/linux/linux-shell.html)
 
 # 每天一个命令行
 
