@@ -21,7 +21,7 @@
 
 1. [bash参考手册](https://xy2401.com/local-docs/gnu/manual.zh/bash.html)
 2. [菜鸟教程](https://www.runoob.com/linux/linux-shell.html)
-3.
+3. [c语言中文网](http://c.biancheng.net/cpp/view/2740.html)
 
 # 每天一个命令行
 
