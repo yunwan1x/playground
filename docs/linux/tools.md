@@ -1,6 +1,7 @@
 # linux仓库
 
 1. [repos](https://pkgs.org/)
+2. [arch linux wiki](https://wiki.archlinux.org/title/Table_of_contents_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87))
 
 # 每天一个命令行
 
