@@ -12,6 +12,11 @@
 
 1. [man.net](https://linux.die.net/man/8/iptables)
 
+## cheat sheat
+
+1. [navi](https://github.com/denisidoro/navi)
+2.
+
 # 每天一个命令行
 
 1. lazygit ， lazydocker ，lazykube系列，htop，iotop, iftop， mc 文件管理器 ，mycli（mysql客户端），ipython
