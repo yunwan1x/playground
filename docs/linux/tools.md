@@ -15,7 +15,10 @@
 ## cheat sheat
 
 1. [navi](https://github.com/denisidoro/navi)
-2.
+
+# bash
+
+1. [bash参考手册](https://xy2401.com/local-docs/gnu/manual.zh/bash.html)
 
 # 每天一个命令行
 
