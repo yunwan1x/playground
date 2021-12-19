@@ -1,6 +1,8 @@
 # linux仓库
 
 1. [repos](https://pkgs.org/)
+2. [centos镜像](http://cloud.centos.org/centos/)
+3. [ubuntu镜像](http://cloud-images.ubuntu.com/)
 
 # wiki
 
