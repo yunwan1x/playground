@@ -9,7 +9,8 @@
 ## 抓包命令
 
 ```shell
- tcpdump -i enp0s8 host 192.168.123.176 and not arp and  udp -n -X
+ tcpdump -i enp0s8 host 192.168.123.176 and not arp and  udp -n -X -S
+# 参考 tcp三次握手抓包 http://xstarcd.github.io/wiki/shell/tcpdump_TCP_three-way_handshake.html
 ```
 
 # nftables
