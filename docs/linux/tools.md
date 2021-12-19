@@ -1,3 +1,8 @@
+# linux from scratch
+
+1. [中文版](https://lctt.github.io/LFS-BOOK/lfs-sysv/LFS-BOOK.html)
+2. [linuxfromscratch](https://www.linuxfromscratch.org/lfs/)
+
 # linux仓库
 
 1. [repos](https://pkgs.org/)
