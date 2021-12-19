@@ -6,4 +6,10 @@
 
 1. 案例1策论路由，[oschina](https://my.oschina.net/mojiewhy/blog/3039897)
 
+## 抓包命令
+
+```shell
+ tcpdump -i enp0s8 host 192.168.123.176 and not arp and  udp -n -X
+```
+
 # nftables
