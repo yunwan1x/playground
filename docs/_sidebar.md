@@ -7,5 +7,6 @@
     * [代理](云计算和网络/代理.md)
 * [linux](linux/tools.md)
 * [netmaker](vpn/netmaker.md)
+* [java](java/java.md)
 
 
