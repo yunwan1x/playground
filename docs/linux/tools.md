@@ -6,8 +6,8 @@
 # linux仓库
 
 1. [repos](https://pkgs.org/)
-2. [centos镜像](http://cloud.centos.org/centos/)
-3. [ubuntu镜像](http://cloud-images.ubuntu.com/)
+2. [centos镜像](http://cloud.centos.org/centos/)，[rocky linux](https://rockylinux.org/)，[opensuse](https://download.opensuse.org/repositories/Cloud:/Images:/)
+3. [ubuntu镜像](http://cloud-images.ubuntu.com/)，[arch linux](https://wiki.archlinux.org/title/Arch_Linux_on_a_VPS)
 4. [vagrant镜像](http://www.vagrantbox.es/)
 
 # wiki
