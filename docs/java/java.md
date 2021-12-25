@@ -39,4 +39,4 @@
 
 # jar常用命令
 
-1. [jargrep](https://man.archlinux.org/man/extra/fastjar/grepjar.1.en)
+1. [grepjar](https://man.archlinux.org/man/extra/fastjar/grepjar.1.en)
