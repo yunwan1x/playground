@@ -27,6 +27,7 @@
 ## cheat sheat
 
 1. [navi](https://github.com/denisidoro/navi)
+2. [linux cheatsheat](https://github.com/skywind3000/awesome-cheatsheets/blob/master/languages/bash.sh)
 
 # bash
 
