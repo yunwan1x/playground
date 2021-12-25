@@ -36,3 +36,7 @@
 -rwxr-xr-x. 1 root root  13224 Oct 27 22:04 serialver
 -rwxr-xr-x. 1 root root 121928 Oct 27 22:04 unpack200
 ```
+
+# jar常用命令
+
+1. [jargrep](https://man.archlinux.org/man/extra/fastjar/grepjar.1.en)
