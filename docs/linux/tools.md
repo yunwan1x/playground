@@ -20,6 +20,7 @@
 # command wiki
 
 1. [man.net](https://linux.die.net/man/8/iptables)
+2. [ubuntu manpages](http://manpages.ubuntu.com/manpages/bionic/zh_CN/man1/zcat.1.html#%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F)
 
 ## cheat sheat
 
