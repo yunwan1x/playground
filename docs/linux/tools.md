@@ -22,7 +22,7 @@
 1. [manorg](https://manned.org/)
 2. [arch manpage](https://man.archlinux.org/)
 3. [man.net](https://linux.die.net/man/8/iptables)
-4. [ubuntu manpages](http://manpages.ubuntu.com/manpages/bionic/zh_CN/man1/zcat.1.html#%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F)，[manpage zh](http://manpages.ubuntu.com/manpages/bionic/zh_CN/)
+4. [ubuntu manpages](http://manpages.ubuntu.com/manpages/bionic/)，[manpage zh](http://manpages.ubuntu.com/manpages/bionic/zh_CN/)
 
 ## cheat sheat
 
