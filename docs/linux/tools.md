@@ -17,10 +17,12 @@
 3. [ubuntu wiki](https://wiki.ubuntu.org.cn/UbuntuManual)
 4. [linux参考学习](http://c.biancheng.net/linux_tutorial/)
 
-# command wiki
+# [command wiki](https://manned.org/)
 
-1. [man.net](https://linux.die.net/man/8/iptables)
-2. [ubuntu manpages](http://manpages.ubuntu.com/manpages/bionic/zh_CN/man1/zcat.1.html#%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F)
+1. [manorg](https://manned.org/)
+2. [arch manpage](https://man.archlinux.org/)
+3. [man.net](https://linux.die.net/man/8/iptables)
+4. [ubuntu manpages](http://manpages.ubuntu.com/manpages/bionic/zh_CN/man1/zcat.1.html#%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F)
 
 ## cheat sheat
 
