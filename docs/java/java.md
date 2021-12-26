@@ -40,4 +40,4 @@
 # jar常用命令
 
 1. [grepjar](https://man.archlinux.org/man/extra/fastjar/grepjar.1.en)
-2. java **Visualvm**  all in one debugger for jvm
+2. java [**Visualvm**](https://visualvm.github.io/)  all in one debugger for jvm
