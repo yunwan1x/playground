@@ -9,7 +9,7 @@
 2. [centos镜像](http://cloud.centos.org/centos/)，[rocky linux](https://rockylinux.org/)，[opensuse](https://download.opensuse.org/repositories/Cloud:/Images:/)
 3. [ubuntu镜像](http://cloud-images.ubuntu.com/)，[arch linux](https://wiki.archlinux.org/title/Arch_Linux_on_a_VPS)
 4. [vagrant镜像](http://www.vagrantbox.es/)
-5. [aliyun开源镜像](https://developer.aliyun.com/mirror/?spm=a2c6h.13651102.0.0.70581b1179qBxI&serviceType=mirror&tag=%E7%B3%BB%E7%BB%9F)
+5. [aliyun开源镜像](https://developer.aliyun.com/mirror/?spm=a2c6h.13651102.0.0.70581b1179qBxI&serviceType=mirror&tag=%E7%B3%BB%E7%BB%9F)，[tuna镜像源](https://mirrors.tuna.tsinghua.edu.cn/)
 
 # wiki
 
