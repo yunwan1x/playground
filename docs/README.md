@@ -1,3 +1,7 @@
+# 好软推荐
+
+1. [landrop](https://landrop.app/#downloads)，局域网同步神器，支持全客户端。
+
 # IDEA用到的中间件
 
 [中间件](https://www.jetbrains.com/legal/third-party-software/?product=IIU&version=2021.2.3)
