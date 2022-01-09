@@ -1,3 +1,6 @@
+# [linux lab实验室](https://gitee.com/tinylab/cloud-lab)
+
+
 # linux from scratch
 
 1. [中文版](https://lctt.github.io/LFS-BOOK/lfs-sysv/LFS-BOOK.html)
