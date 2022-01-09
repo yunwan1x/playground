@@ -1,5 +1,6 @@
 # [linux lab实验室](https://gitee.com/tinylab/cloud-lab)
 
+1. [使用说明](https://zhuanlan.zhihu.com/p/141738065)
 
 # linux from scratch
 
