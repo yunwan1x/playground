@@ -2,6 +2,7 @@
 
 1. [使用说明](https://zhuanlan.zhihu.com/p/141738065)
 2. [linux0.11 实验室](https://hub.docker.com/r/tinylab/linux-0.11-lab)
+3. [linux开发板](https://tinylab.org/linux-lab/)
 
 # linux from scratch
 
