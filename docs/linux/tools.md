@@ -1,3 +1,7 @@
+# 学习内核
+
+1. [书籍](https://zhuanlan.zhihu.com/p/72818398)
+
 # [linux lab实验室](https://gitee.com/tinylab/cloud-lab)
 
 1. [使用说明](https://zhuanlan.zhihu.com/p/141738065)
