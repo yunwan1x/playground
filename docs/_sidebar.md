@@ -9,6 +9,7 @@
     * [linux wiki](linux/tools.md)
     * [内核编译调试](linux/compile.md)
 * [netmaker](vpn/netmaker.md)
-* [java](java/java.md)
+* java
+    * [java wiki](java/java.md)
 
 
