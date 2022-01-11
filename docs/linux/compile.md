@@ -8,5 +8,5 @@
 2. ubuntu20.04,安装编译工具
 
    ```
-   sudo apt update && sudo apt install libncurses5-dev openssl libssl-dev build-essential pkg-config libc6-dev bison flex libelf-dev zlibc minizip libidn11-dev libidn11
+   sudo apt update && sudo apt install libncurses5-dev openssl libssl-dev build-essential pkg-config libc6-dev bison flex libelf-dev minizip libidn11-dev libidn11
    ````
