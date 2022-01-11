@@ -10,3 +10,7 @@
    ```
    sudo apt update && sudo apt install libncurses5-dev openssl libssl-dev build-essential pkg-config libc6-dev bison flex libelf-dev zlibc minizip libidn11-dev libidn11
    ````
+
+## 参考
+
+[ubuntu2004编译linux](https://blog.csdn.net/qq_39819990/article/details/106605430)
