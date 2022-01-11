@@ -14,3 +14,5 @@
 ## 参考
 
 [ubuntu2004编译linux](https://blog.csdn.net/qq_39819990/article/details/106605430)
+
+[qemu+vscode调试内核](https://howardlau.me/programming/debugging-linux-kernel-with-vscode-qemu.html)
