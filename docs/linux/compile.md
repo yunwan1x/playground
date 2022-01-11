@@ -20,3 +20,5 @@
 [tencent](https://cloud.tencent.com/developer/column/3087)
 
 【Linux操作系统-构建自己的内核-哔哩哔哩】 https://b23.tv/3gyPzQu
+
+【Linux 0.11内核分析课程-哔哩哔哩】 https://b23.tv/IF64X7U
