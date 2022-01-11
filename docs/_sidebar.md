@@ -5,7 +5,7 @@
     * [虚拟机](云计算和网络/虚拟机.md)
     * [存储](云计算和网络/存储.md)
     * [代理](云计算和网络/代理.md)
-* [linux]
+* linux
     * [linux wiki](linux/tools.md)
     * [内核编译调试](linux/compile.md)
 * [netmaker](vpn/netmaker.md)
