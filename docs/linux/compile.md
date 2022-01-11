@@ -18,3 +18,5 @@
 [qemu+vscode调试内核](https://howardlau.me/programming/debugging-linux-kernel-with-vscode-qemu.html)
 
 [tencent](https://cloud.tencent.com/developer/column/3087)
+
+【Linux操作系统-构建自己的内核-哔哩哔哩】 https://b23.tv/3gyPzQu
