@@ -16,13 +16,15 @@
    # 安装ccache
    sudo apt install ccache
 
-   cat <<< EOF >>.bashrc
+   cat << EOF >>.bashrc
    export USE_CCACHE=1 
    export CCACHE_DIR="/home/wy/.ccache" 
    export CC="ccache gcc"  
    export CXX="ccache g++"  
    export PATH="$PATH:/usr/lib/ccache"
    EOF 
+
+
    ````
 
 ## 参考
