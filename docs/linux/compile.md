@@ -50,6 +50,8 @@ qemu-system-x86_64 -kernel arch/x86/boot/bzImage -initrd arch/x86/boot/bzImage -
 
 [ubuntu2004编译linux](https://blog.csdn.net/qq_39819990/article/details/106605430)
 
+[内核调试方式](https://www.zhihu.com/question/35565790)
+
 [qemu+vscode调试内核](https://howardlau.me/programming/debugging-linux-kernel-with-vscode-qemu.html)
 
 [net/blog/2021/debug_kernel_szp/](http://kerneltravel.net/blog/2021/debug_kernel_szp/)
