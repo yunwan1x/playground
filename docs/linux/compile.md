@@ -54,6 +54,8 @@ qemu-system-x86_64 -kernel arch/x86/boot/bzImage -initrd arch/x86/boot/bzImage -
 
 [net/blog/2021/debug_kernel_szp/](http://kerneltravel.net/blog/2021/debug_kernel_szp/)
 
+[zhihu](https://zhuanlan.zhihu.com/p/412604505)
+
 [tencent](https://cloud.tencent.com/developer/column/3087)
 
 【Linux操作系统-构建自己的内核-哔哩哔哩】 https://b23.tv/3gyPzQu
