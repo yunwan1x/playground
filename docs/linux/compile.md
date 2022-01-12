@@ -31,6 +31,13 @@
 
    ````
 
+## 启动内核
+
+```shell
+#  或者 -serial file:output.txt
+qemu-system-x86_64 -kernel arch/x86/boot/bzImage -initrd arch/x86/boot/bzImage -append root=/dev/ram init=/linuxrc  -nographic -nographic -serial mon:stdio -append console=ttyS0
+```
+
 ## FAQ
 
 1. `git 下载出错，git config --global http.sslVerify false`
