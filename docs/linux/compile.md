@@ -28,7 +28,12 @@
    # 设定50G的缓存上限
    ccache -M 50G
 
+
    ````
+
+## FAQ
+
+1. `git 下载出错，git config --global http.sslVerify false`
 
 ## 参考
 
