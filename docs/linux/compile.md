@@ -45,6 +45,11 @@ Settings  --->
 # 制作rootfs
 dd if=/dev/zero of=rootfs.img bs=1M count=10
 mkfs.ext4 rootfs.img
+# 创建用于挂载该镜像文件的目录fs，挂载后才能往里面写入busybox。 使用mount命令将rootfs.img挂载到fs目录，编译busybox并写入fs目录中。
+mkdir fs
+sudo mount -t ext4 -o loop rootfs.img ./fs
+sudo make install CONFIG_PREFIX=./fs
+
 ```
 
 ## 启动内核
