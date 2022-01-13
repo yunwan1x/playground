@@ -37,6 +37,14 @@
 
 ```shell
 git clone --depth 1  https://github.com/mirror/busybox.git 
+cd busybox
+make menuconfig
+Settings  --->
+            [*] Build BusyBox as a static binary (no shared libs) 
+
+# 制作rootfs
+dd if=/dev/zero of=rootfs.img bs=1M count=10
+mkfs.ext4 rootfs.img
 ```
 
 ## 启动内核
