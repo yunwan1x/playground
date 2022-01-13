@@ -7,7 +7,7 @@
    ```
 2. ubuntu20.04,安装编译工具
 
-   ```
+   ```shell
    # 安装编译工具
    sudo apt update && sudo apt install libncurses5-dev openssl libssl-dev build-essential pkg-config libc6-dev bison flex libelf-dev zlibc minizip libidn11-dev libidn11
    # 安装qemu
@@ -33,7 +33,7 @@
 
 # 制作启动initram
 
-下载busybox 静态编译
+3. 下载busybox 静态编译
 
 ```shell
 git clone --depth 1  https://github.com/mirror/busybox.git 
