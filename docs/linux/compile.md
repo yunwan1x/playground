@@ -49,7 +49,12 @@ mkfs.ext4 rootfs.img
 mkdir fs
 sudo mount -t ext4 -o loop rootfs.img ./fs
 sudo make install CONFIG_PREFIX=./fs
-
+# 接下来对写入的busybox进行补充配置。
+cd fs 
+sudo mkdir proc dev etc home mnt
+sudo cp -r ../examples/bootfloppy/etc/* etc/
+cd ..
+sudo chmod -R 777 fs/
 ```
 
 ## 启动内核
