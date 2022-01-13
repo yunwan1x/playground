@@ -29,7 +29,7 @@
    ccache -M 50G
 
 
-   ````
+   ```
 
 # 制作启动initram
 
