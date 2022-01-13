@@ -55,6 +55,8 @@ sudo mkdir proc dev etc home mnt
 sudo cp -r ../examples/bootfloppy/etc/* etc/
 cd ..
 sudo chmod -R 777 fs/
+# 卸载fs
+sudo umount fs
 ```
 
 ## 启动内核
