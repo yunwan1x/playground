@@ -31,6 +31,14 @@
 
    ````
 
+## 制作启动initram
+
+下载busybox 静态编译
+
+```shell
+git clone --depth 1  https://github.com/mirror/busybox.git 
+```
+
 ## 启动内核
 
 ```shell
