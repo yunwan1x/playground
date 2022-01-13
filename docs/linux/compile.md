@@ -31,7 +31,7 @@
 
    ````
 
-## 制作启动initram
+# 制作启动initram
 
 下载busybox 静态编译
 
@@ -59,7 +59,7 @@ sudo chmod -R 777 fs/
 sudo umount fs
 ```
 
-## 启动内核
+# 启动内核
 
 ```shell
 #  或者 -serial file:output.txt
@@ -70,11 +70,11 @@ qemu-system-x86_64 -kernel arch/x86/boot/bzImage  -hda ./busybox-1.32.0/rootfs.i
 # 2. 在 qemu 中 输入ctrl+a 抬起后，再输入’x’。
 ```
 
-## FAQ
+# FAQ
 
 1. `git 下载出错，git config --global http.sslVerify false`
 
-## 参考
+# 参考
 
 [ubuntu2004编译linux](https://blog.csdn.net/qq_39819990/article/details/106605430)
 
