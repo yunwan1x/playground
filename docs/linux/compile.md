@@ -26,14 +26,10 @@
 
    source ~/.bashrc
    # 设定50G的缓存上限
-   ccache -M 50G
-
-
+   ccache -M 50
    ```
 
-# 制作启动initram
-
-3. 下载busybox 静态编译
+# 编译busybox
 
 ```shell
 git clone --depth 1  https://github.com/mirror/busybox.git 
