@@ -2,12 +2,6 @@
 
 1. [书籍](https://zhuanlan.zhihu.com/p/72818398)
 
-# [linux lab实验室](https://gitee.com/tinylab/cloud-lab)
-
-1. [使用说明](https://zhuanlan.zhihu.com/p/141738065)
-2. [linux0.11 实验室](https://hub.docker.com/r/tinylab/linux-0.11-lab)
-3. [linux开发板](https://tinylab.org/linux-lab/) , [linux实验室](https://gitee.com/tinylab/linux-lab)
-
 # linux from scratch
 
 1. [中文版](https://lctt.github.io/LFS-BOOK/lfs-sysv/LFS-BOOK.html)
