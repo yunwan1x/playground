@@ -74,6 +74,8 @@ qemu-system-x86_64 -kernel arch/x86/boot/bzImage  -hda ./busybox-1.32.0/rootfs.i
 
 [ubuntu2004编译linux](https://blog.csdn.net/qq_39819990/article/details/106605430)
 
+[initd文件制作方式](https://developer.aliyun.com/article/47872)
+
 [内核调试方式](https://www.zhihu.com/question/35565790)
 
 [qemu+vscode调试内核](https://howardlau.me/programming/debugging-linux-kernel-with-vscode-qemu.html)
