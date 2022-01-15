@@ -1,6 +1,6 @@
 # 编译调试
 
-1. 下载[linux 源码](https://mirrors.tuna.tsinghua.edu.cn/help/linux.git/)，
+1. 下载[linux 源码](https://mirrors.tuna.tsinghua.edu.cn/help/linux.git/)，参考书籍： 深度探索linux操作系统
 
    ```shell
    git clone --depth 1 https://mirrors.tuna.tsinghua.edu.cn/git/linux.git
