@@ -32,6 +32,8 @@
 
 # 编译busybox,制作启动盘
 
+1. 参考 https://blog.csdn.net/LEON1741/article/details/54848842
+
 ```shell
 git clone --depth 1  https://github.com/mirror/busybox.git 
 cd busybox
