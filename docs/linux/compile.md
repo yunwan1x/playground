@@ -55,6 +55,12 @@ sudo chmod -R 777 fs/
 sudo umount fs
 ```
 
+# 编译内核
+
+```shell
+make -j4 vmlinux bzImage
+```
+
 # 启动内核
 
 ```shell
@@ -79,6 +85,10 @@ qemu-system-x86_64 \
 # FAQ
 
 1. `git 下载出错，git config --global http.sslVerify false`
+2. > make[1]: *** No rule to make target 'debian/certs/benh@debian.org.cert.pem', needed by 'certs/x509_certificate_list'  ， 遇到这个证书错误，此时需要编辑一下.config，将CONFIG_SYSTEM_TRUSTED_KEYS置为空：CONFIG_SYSTEM_TRUSTED_KEYS = ""
+   >
+
+
 
 # 参考
 
