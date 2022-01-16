@@ -90,7 +90,7 @@ qemu-system-x86_64 -kernel linux/arch/x86_64/boot/bzImage -nographic -append "co
 2. > make[1]: *** No rule to make target 'debian/certs/benh@debian.org.cert.pem', needed by 'certs/x509_certificate_list'  ， 遇到这个证书错误，此时需要编辑一下.config，将CONFIG_SYSTEM_TRUSTED_KEYS置为空：CONFIG_SYSTEM_TRUSTED_KEYS = ""
    >
 
-
+# [安装xfce桌面环境和novnc](https://jskcw.com/post/how-to-install-and-configure-vnc-on-ubuntu-20-04/)
 
 # 参考
 
