@@ -74,7 +74,7 @@ make -j4 vmlinux bzImage
 ```shell
 #  或者 -serial file:output.txt
 
-qemu-system-x86_64 -kernel arch/x86/boot/bzImage  -hda ./busybox-1.32.0/rootfs.img  -append "root=/dev/sda console=ttyS0" -nographic
+qemu-system-x86_64 -kernel arch/x86/boot/bzImage  -hda ./busybox/rootfs.img  -append "root=/dev/sda console=ttyS0" -nographic
 
 或者调试
 mkinitramfs -o ramdisk.img
