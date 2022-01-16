@@ -61,6 +61,16 @@ sudo umount fs
 #  或者 -serial file:output.txt
 
 qemu-system-x86_64 -kernel arch/x86/boot/bzImage  -hda ./busybox-1.32.0/rootfs.img  -append "root=/dev/sda console=ttyS0" -nographic
+
+或者
+mkinitramfs -o ramdisk.img
+qemu-system-x86_64 \
+  -kernel arch/x86_64/boot/bzImage \
+  -nographic \
+  -append "console=ttyS0 nokaslr" \
+  -initrd ramdisk.img \
+  -m 1024 \
+  -s -S
 # 退出方法
 # 1. 在另一个终端中输入 killall qemu-system-arm
 # 2. 在 qemu 中 输入ctrl+a 抬起后，再输入’x’。
