@@ -62,7 +62,7 @@ sudo umount fs
 cp /boot/config-$(uname -r) .config
 make menuconfig
 # 进入内核代码目录 ./scripts/config -e DEBUG_INFO -e GDB_SCRIPTS -e CONFIG_DEBUG_SECTION_MISMATCH -d CONFIG_RANDOMIZE_BASE  ，这一步开启调试，取消内核内存地址随机化(KASLR)，打开编译选项 DEBUG_INFO GDB_SCRIPTS，调用一次函数不优化为内联函数
-# ./scripts/config --disable SYSTEM_TRUSTED_KEYS
+# ./scripts/config --disable SYSTEM_TRUSTED_KEYS -d SYSTEM_REVOCATION_KEYS -d  CONFIG_SYSTEM_TRUSTED_KEYS  
 make -j4 vmlinux bzImage
 ```
 
