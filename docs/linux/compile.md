@@ -9,7 +9,7 @@
 
    ```shell
    # 安装编译工具
-   sudo apt update && sudo apt install libncurses5-dev openssl libssl-dev build-essential pkg-config libc6-dev bison flex libelf-dev zlibc minizip libidn11-dev libidn11
+   sudo apt update && sudo apt install libncurses5-dev openssl libssl-dev build-essential pkg-config libc6-dev bison flex libelf-dev zlib1g minizip libidn11-dev libidn11
    # 安装qemu
    apt install qemu-system-x86  qemu-utils
 
