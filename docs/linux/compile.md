@@ -29,7 +29,7 @@
    ccache -M 50
    ```
 
-# 编译busybox
+# 编译busybox,制作启动盘
 
 ```shell
 git clone --depth 1  https://github.com/mirror/busybox.git 
