@@ -92,6 +92,8 @@ qemu-system-x86_64 -kernel linux/arch/x86_64/boot/bzImage -nographic -append "co
 
 # [安装xfce桌面环境和novnc](https://jskcw.com/post/how-to-install-and-configure-vnc-on-ubuntu-20-04/)
 
+1. ubuntu2004   /etc/rc.local可以开机启动
+
 # 参考
 
 [ubuntu2004编译linux](https://blog.csdn.net/qq_39819990/article/details/106605430)
