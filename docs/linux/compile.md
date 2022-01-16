@@ -89,6 +89,7 @@ qemu-system-x86_64 -kernel linux/arch/x86_64/boot/bzImage -nographic -append "co
 1. `git 下载出错，git config --global http.sslVerify false`
 2. > make[1]: *** No rule to make target 'debian/certs/benh@debian.org.cert.pem', needed by 'certs/x509_certificate_list'  ， 遇到这个证书错误，此时需要编辑一下.config，将CONFIG_SYSTEM_TRUSTED_KEYS置为空：CONFIG_SYSTEM_TRUSTED_KEYS = ""
    >
+3. idea索引慢的话，先invalid cache，然后重新打开，索引就非常快
 
 # [安装xfce桌面环境和novnc](https://jskcw.com/post/how-to-install-and-configure-vnc-on-ubuntu-20-04/)
 
