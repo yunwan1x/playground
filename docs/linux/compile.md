@@ -58,7 +58,10 @@ sudo umount fs
 # 编译内核
 
 ```shell
+cp /boot/config-$(uname -r) .config
+make menuconfig
 # 进入内核代码目录 ./scripts/config -e DEBUG_INFO -e GDB_SCRIPTS -e CONFIG_DEBUG_SECTION_MISMATCH -d CONFIG_RANDOMIZE_BASE 
+
 make -j4 vmlinux bzImage
 ```
 
