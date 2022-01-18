@@ -99,10 +99,12 @@ qemu-system-x86_64 -kernel linux/arch/x86_64/boot/bzImage -nographic -append "co
 # 安装lubuntu
 
 ```shell
-# 参考https://www.itcoder.tech/posts/how-to-install-xrdp-on-ubuntu-20-04/
+# 参考
 apt update && apt-get install lubuntu-desktop
 
 ```
+
+1. [参考](https://www.itcoder.tech/posts/how-to-install-xrdp-on-ubuntu-20-04/)
 
 # 参考
 
