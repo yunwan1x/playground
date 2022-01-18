@@ -105,6 +105,7 @@ apt update && apt-get install lubuntu-desktop
 ```
 
 1. [ubuntu2004安装各种桌面环境](https://linuxconfig.org/the-8-best-ubuntu-desktop-environments-20-04-focal-fossa-linux)
+2. [使用tasksel安装软件包](https://www.howtoing.com/tasksel-install-group-software-lamp-mail-dns-in-debian-ubuntu/)
 
 # 参考
 
