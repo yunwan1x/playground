@@ -96,6 +96,12 @@ qemu-system-x86_64 -kernel linux/arch/x86_64/boot/bzImage -nographic -append "co
 1. ubuntu2004   /etc/rc.local可以开机启动
 2. [xfce安装中文](https://blog.csdn.net/weixin_42937217/article/details/121970539)
 
+# 安装lubuntu
+
+```shell
+apt update && apt-get install lubuntu-desktop
+```
+
 # 参考
 
 [ubuntu2004编译linux](https://blog.csdn.net/qq_39819990/article/details/106605430)
