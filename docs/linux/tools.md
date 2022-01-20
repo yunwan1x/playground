@@ -1,7 +1,7 @@
 # 学习内核
 
 1. [书籍](https://zhuanlan.zhihu.com/p/72818398)
-2. [systemd服务使用](https://www.ruanyifeng.com/blog/2016/03/systemd-tutorial-part-two.html)
+2. [systemd服务使用](https://www.ruanyifeng.com/blog/2016/03/systemd-tutorial-part-two.html)，[systemd参考](https://fedoraproject.org/wiki/Systemd/zh-cn)
 
 # linux from scratch
 
