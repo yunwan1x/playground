@@ -1,6 +1,7 @@
 # 学习内核
 
 1. [书籍](https://zhuanlan.zhihu.com/p/72818398)
+2. [systemd服务使用](https://www.ruanyifeng.com/blog/2016/03/systemd-tutorial-part-two.html)
 
 # linux from scratch
 
