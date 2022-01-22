@@ -7,3 +7,5 @@
 * `docker run --rm -it -p 5980:5980 nkpro/chrome-novnc`
 
 https://github.com/f-ever/chrome-novnc/blob/master/Dockerfile
+
+xvfb和xserver  xephyr
