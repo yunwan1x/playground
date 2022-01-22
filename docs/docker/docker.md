@@ -25,3 +25,5 @@ https://stackoverflow.com/questions/16296753/can-you-run-gui-applications-in-a-l
 xpra
 
 [altapps](https://zh.altapps.net/soft/xpra)
+
+[net/2020/02/04/xpra-intro/](https://openwares.net/2020/02/04/xpra-intro/)
