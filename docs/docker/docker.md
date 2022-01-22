@@ -11,3 +11,5 @@ https://github.com/f-ever/chrome-novnc/blob/master/Dockerfile
 xvfb和xserver  xephyr
 
 [freesion](https://www.freesion.com/article/575964344/)
+
+[xvfb x11vnc运行软件](https://www.infoq.cn/news/talk-about-docker-running-the-chinese-gui-software)
