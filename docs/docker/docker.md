@@ -15,3 +15,5 @@ xvfb和xserver  xephyr
 [xvfb x11vnc运行软件](https://www.infoq.cn/news/talk-about-docker-running-the-chinese-gui-software)
 
 https://my.oschina.net/ztguang/blog/3194520 linux gui四种方案
+
+[docker桌面环境](https://blog.zenozeng.com/post/2018-03-26-dockerize%E6%A1%8C%E9%9D%A2%E7%8E%AF%E5%A2%83/)
