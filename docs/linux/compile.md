@@ -96,8 +96,9 @@ qemu-system-x86_64 -kernel linux/arch/x86_64/boot/bzImage -nographic -append "co
 1. ubuntu2004   /etc/rc.local可以开机启动
 2. [xfce安装中文](https://blog.csdn.net/weixin_42937217/article/details/121970539)
 3. [无密码访问vnc novnc](https://www.codeleading.com/article/20154523521/)
-4. [com/kasmtech/KasmVNC?utm_campaign=Dockerhub&utm_source=docker](https://github.com/kasmtech/KasmVNC?utm_campaign=Dockerhub&utm_source=docker)
-5. [kasmweb/terminal](https://hub.docker.com/r/kasmweb/terminal)
+4. vnc.html?password=123456
+5. [com/kasmtech/KasmVNC?utm_campaign=Dockerhub&utm_source=docker](https://github.com/kasmtech/KasmVNC?utm_campaign=Dockerhub&utm_source=docker)
+6. [kasmweb/terminal](https://hub.docker.com/r/kasmweb/terminal)
 
 # docker版xfce novnc
 
