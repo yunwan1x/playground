@@ -9,3 +9,5 @@
 https://github.com/f-ever/chrome-novnc/blob/master/Dockerfile
 
 xvfb和xserver  xephyr
+
+[freesion](https://www.freesion.com/article/575964344/)
