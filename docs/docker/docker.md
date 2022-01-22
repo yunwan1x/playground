@@ -27,3 +27,5 @@ xpra
 [altapps](https://zh.altapps.net/soft/xpra)
 
 [net/2020/02/04/xpra-intro/](https://openwares.net/2020/02/04/xpra-intro/)
+
+https://tinylab.org/based-on-ssh-build-docker-xpra-desktop/
