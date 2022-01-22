@@ -4,3 +4,4 @@
 * openbox窗口管理器
 * twm窗口管理器
 * https://github.com/solarkennedy/wine-x11-novnc-docker
+* `docker run --rm -it -p 5980:5980 nkpro/chrome-novnc`
