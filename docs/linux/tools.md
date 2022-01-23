@@ -23,7 +23,7 @@
 3. [ubuntu wiki](https://wiki.ubuntu.org.cn/UbuntuManual)
 4. [linux参考学习](http://c.biancheng.net/linux_tutorial/)
 5. [freebsd wiki](https://docs.freebsd.org/zh-cn/books/handbook/virtualization/#virtualization-host)
-6. opensuse
+6. [opensuse](https://zh.opensuse.org/%E9%A6%96%E9%A1%B5)
 
 # [command wiki](https://manned.org/)
 
