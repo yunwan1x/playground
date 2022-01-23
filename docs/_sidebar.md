@@ -10,6 +10,7 @@
 * linux
     * [linux wiki](linux/tools.md)
     * [内核编译调试](linux/compile.md)
+    * [ebpf](linux.ebpf.md)
 * [netmaker](vpn/netmaker.md)
 * java
     * [java wiki](java/java.md)
