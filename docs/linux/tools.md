@@ -22,6 +22,8 @@
 2. [redhat wiki](https://access.redhat.com/documentation/zh-cn/red_hat_enterprise_linux/7)
 3. [ubuntu wiki](https://wiki.ubuntu.org.cn/UbuntuManual)
 4. [linux参考学习](http://c.biancheng.net/linux_tutorial/)
+5. [freebsd wiki](https://docs.freebsd.org/zh-cn/books/handbook/virtualization/#virtualization-host)
+6.
 
 # [command wiki](https://manned.org/)
 
