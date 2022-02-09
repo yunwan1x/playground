@@ -42,6 +42,7 @@ ssh证书登录 [ruanyifeng](https://www.ruanyifeng.com/blog/2020/07/ssh-certifi
 * 证书
 
   * mkcert创建本地可信证书
+  * https://letsencrypt.org/zh-cn/docs/certificates-for-localhost/
 * k8s调试
 
   * [Telepresence](https://www.hi-linux.com/posts/21833.html)
