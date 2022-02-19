@@ -5,8 +5,8 @@
 # 好软推荐
 
 1. [landrop](https://landrop.app/#downloads)，局域网同步神器，支持全客户端。
-2. https://chengpengzhao.com/2020-03-04-ssh-yu-gpg-de-xue-xi-yu-shi-yong/
-3. linux apt yum使用 https://www.runoob.com/linux/linux-comm-apt.html
+2. [gpg使用](https://chengpengzhao.com/2020-03-04-ssh-yu-gpg-de-xue-xi-yu-shi-yong/)
+3. [ linux apt yum使用](https://www.runoob.com/linux/linux-comm-apt.html)
 
 # IDEA用到的中间件
 
