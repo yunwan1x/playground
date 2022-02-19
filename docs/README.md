@@ -1,6 +1,7 @@
 # 常用FAQ
 
 1. [解决chome访问非受信任证书页面，提示您的连接不是私密连接](https://blog.csdn.net/easylife206/article/details/107171565)
+2. chrome 常用内部urls [chrome://about](chrome://about)
 
 # 好软推荐
 
