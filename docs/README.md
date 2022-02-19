@@ -1,3 +1,7 @@
+# 常用FAQ
+
+1. [解决chome访问非受信任证书页面，提示您的连接不是私密连接](https://blog.csdn.net/easylife206/article/details/107171565)
+
 # 好软推荐
 
 1. [landrop](https://landrop.app/#downloads)，局域网同步神器，支持全客户端。
