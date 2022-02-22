@@ -1,4 +1,4 @@
-1. 参考书籍[zhihu](https://zhuanlan.zhihu.com/p/77071367)
+1. 参考书籍[zhihu](https://zhuanlan.zhihu.com/p/77071367) , excelhome的excel 2019应用大全
 2. 智能填充ctr+E，ctr+T创建智能表。ctr+q数据分析快捷键。
 3. 记录单
 4. F4重复指令，ctr+d向下填充，ctr+r向右填充。
