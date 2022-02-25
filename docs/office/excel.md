@@ -10,7 +10,7 @@
 
 数据录入
 
-1. [zhihu](https://zhuanlan.zhihu.com/p/36464076)
+* [zhihu](https://zhuanlan.zhihu.com/p/36464076)
 
 数据清洗
 
