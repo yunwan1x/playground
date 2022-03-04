@@ -47,3 +47,4 @@
 # maven
 
 1. [去除重复依赖插件](https://juejin.cn/post/7046946791710785544)
+2. 插件列表 maven.apache.org/plugins/index.html，
