@@ -50,10 +50,9 @@
 2. 插件列表 maven.apache.org/plugins/index.html，
 3. [com/artifact/org](https://mvnrepository.com/artifact/org.codehaus.mojo?p=2)
 
-
 mvn dependency:list
-mvn dependency:get -DremoteRepositories=http://119.42.227.56/repository/maven-releases 
--DgroupId=com.alipay.sofa -DartifactId=sofaboot-enterprise-dependencies -Dversion=3.4.5 
+mvn dependency:get -DremoteRepositories=http://119.42.227.56/repository/maven-releases
+-DgroupId=com.alipay.sofa -DartifactId=sofaboot-enterprise-dependencies -Dversion=3.4.5
 -Dtransitive=false
 
 mvn dependency:resolve
@@ -78,3 +77,4 @@ maven-shade-plugin 创建可执行jar
 # mvn 网站
 
 1. https://maven.apache.org/plugins/index.html
+2. mvn prefix使用 https://stackoverflow.com/questions/40205664/how-does-maven-plugin-prefix-resolution-work-why-is-it-resolving-findbugs-but
