@@ -43,3 +43,7 @@
 2. java [**Visualvm**](https://visualvm.github.io/)  all in one debugger for jvm
 3. 集算器spl
 4. [apache calcite](https://calcite.apache.org/)
+
+# maven
+
+1. [去除重复依赖插件](https://juejin.cn/post/7046946791710785544)
