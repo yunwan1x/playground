@@ -49,3 +49,32 @@
 1. [去除重复依赖插件](https://juejin.cn/post/7046946791710785544)
 2. 插件列表 maven.apache.org/plugins/index.html，
 3. [com/artifact/org](https://mvnrepository.com/artifact/org.codehaus.mojo?p=2)
+
+
+mvn dependency:list
+mvn dependency:get -DremoteRepositories=http://119.42.227.56/repository/maven-releases 
+-DgroupId=com.alipay.sofa -DartifactId=sofaboot-enterprise-dependencies -Dversion=3.4.5 
+-Dtransitive=false
+
+mvn dependency:resolve
+mvn clean compile -Dmaven.test.skip=true  -s ~/.m2/test/settings.xml
+
+[mvn管理依赖](https://www.jianshu.com/p/28f51dbab8de)
+
+mvn dependency:get -Dartifact=org.riversun:random-forest-codegen:1.0.0
+
+mvn help:system
+mvn help:describe -Dplugin=compiler
+
+mvn help:describe -Dplugin=groupId:artifactId:version
+
+mvn dependency:help
+mvn dependency:copy
+
+# 常用插件
+
+maven-shade-plugin 创建可执行jar
+
+# mvn 网站
+
+1. https://maven.apache.org/plugins/index.html
