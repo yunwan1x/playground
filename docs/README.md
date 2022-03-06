@@ -124,3 +124,4 @@ restfultookit插件自动生成请求
 # 杂项
 
 1. [vim自动补全](https://zhuanlan.zhihu.com/p/349271041)
+2. rtty
