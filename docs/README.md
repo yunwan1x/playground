@@ -125,3 +125,5 @@ restfultookit插件自动生成请求
 
 1. rtty
 2. pingtunnel
+
+# [git使用token登录](https://stackoverflow.com/questions/68775869/support-for-password-authentication-was-removed-please-use-a-personal-access-to)
