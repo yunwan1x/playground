@@ -78,7 +78,7 @@ clear               # clears content on window (hide displayed lines)
 ```shell
 
 
-`
+
 
 ls                            # lists your files in current directory, ls <dir> to print files in a specific directory
 ls -l                         # lists your files in 'long format', which contains the exact size of the file, who owns the file and who has the right to look at it, and when it was last modified
@@ -128,7 +128,7 @@ echo "this" | sed 's/is/at/g' # replace pattern from input stream with replaceme
 
 ```
 
-```
+```shell
 
 ##############################################################################
 
@@ -194,12 +194,14 @@ wget <file>              # downloads file
 netstat                  # Print network connections, routing tables, interface statistics, masquerade connections, and multicast memberships
 
 time <command>           # report time consumed by command execution
+```
 
-##############################################################################
+
+
 
 # VARIABLES
 
-##############################################################################
+```shell
 
 varname=value                # defines a variable
 varname=value command        # defines a variable to be in the environment of a particular subprocess
@@ -261,12 +263,13 @@ ${#varname}                  # returns the length of the value of the variable a
 $(UNIX command)              # command substitution: runs the command and returns standard output
 
 typeset -l <x>                 # makes variable local - <x> must be an interger
+```
 
-##############################################################################
+
 
 # FUNCTIONS
 
-##############################################################################
+```shell
 
 # The function refers to passed arguments by position (as if they were positional parameters), that is, $1, $2, and so forth.
 
@@ -524,11 +527,14 @@ echo "A return occurred"
 
 trap returntrap RETURN  # is executed each time a shell function or a script executed with the . or source commands finishes executing
 
-##############################################################################
+```
+
+
+
 
 # COLORS AND BACKGROUNDS
 
-##############################################################################
+```shell
 
 # note: \e or \x1B also work instead of \033
 
