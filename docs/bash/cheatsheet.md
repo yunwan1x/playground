@@ -1,13 +1,6 @@
-`shell
-
-
-#!/bin/bash
-##############################################################################
-
 # SHORTCUTS and HISTORY
 
-##############################################################################
-
+```shell
 CTRL+A  # move to beginning of line
 CTRL+B  # moves backward one character
 CTRL+C  # halts the current command
@@ -63,13 +56,11 @@ history   # shows command line history
 esc :wq   # exits and saves script
 
 exit      # logs out of current session
-
-##############################################################################
+```
 
 # BASH BASICS
 
-##############################################################################
-
+```shell
 env                 # displays all environment variables
 
 echo $SHELL         # displays the shell you're using
@@ -80,12 +71,14 @@ whereis bash        # locates the binary, source and manual-page for a command
 which bash          # finds out which program is executed as 'bash' (default: /bin/bash, can change across environments)
 
 clear               # clears content on window (hide displayed lines)
-
-##############################################################################
+```
 
 # FILE COMMANDS
 
-##############################################################################
+```shell
+
+
+`
 
 ls                            # lists your files in current directory, ls <dir> to print files in a specific directory
 ls -l                         # lists your files in 'long format', which contains the exact size of the file, who owns the file and who has the right to look at it, and when it was last modified
@@ -132,6 +125,10 @@ head -y lines.txt | tail +x   # want to display all the lines from x to y. This 
 sed 's/<pattern>/<replacement>/g' <filename> # replace pattern in file with replacement value to std output the character after s (/) is the delimeter
 sed -i 's/<pattern>/<replacement>/g' <filename> # replace pattern in file with replacement value in place
 echo "this" | sed 's/is/at/g' # replace pattern from input stream with replacement value
+
+```
+
+```
 
 ##############################################################################
 
@@ -604,5 +601,3 @@ echo -e "${Red}${On_White}This is Red test on White background${Color_Off}"
 printf "${Red} This is red \n"
 
 ```
-
-
