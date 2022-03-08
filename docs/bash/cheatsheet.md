@@ -1,6 +1,11 @@
+`shell
+
+
 #!/bin/bash
 ##############################################################################
+
 # SHORTCUTS and HISTORY
+
 ##############################################################################
 
 CTRL+A  # move to beginning of line
@@ -46,7 +51,7 @@ CTRL+X then (   # start recording a keyboard macro
 CTRL+X then )   # finish recording keyboard macro
 CTRL+X then E   # recall last recorded keyboard macro
 CTRL+X then CTRL+E   # invoke text editor (specified by $EDITOR) on current command line then execute resultes as shell commands
-CTRL+A then D  # logout from screen but don't kill it, if any command exist, it will continue 
+CTRL+A then D  # logout from screen but don't kill it, if any command exist, it will continue
 
 BACKSPACE  # deletes one character backward
 DELETE     # deletes one character under cursor
@@ -59,9 +64,10 @@ esc :wq   # exits and saves script
 
 exit      # logs out of current session
 
-
 ##############################################################################
+
 # BASH BASICS
+
 ##############################################################################
 
 env                 # displays all environment variables
@@ -75,11 +81,11 @@ which bash          # finds out which program is executed as 'bash' (default: /b
 
 clear               # clears content on window (hide displayed lines)
 
-
 ##############################################################################
+
 # FILE COMMANDS
-##############################################################################
 
+##############################################################################
 
 ls                            # lists your files in current directory, ls <dir> to print files in a specific directory
 ls -l                         # lists your files in 'long format', which contains the exact size of the file, who owns the file and who has the right to look at it, and when it was last modified
@@ -94,7 +100,7 @@ cat <filename>                # displays file raw content (will not be interpret
 cat -n <filename>             # shows number of lines
 nl <file.sh>                  # shows number of lines in file
 cat filename1 > filename2     # Copy filename1 to filename2
-cat filename1 >> filename2    # merge two files texts together 
+cat filename1 >> filename2    # merge two files texts together
 any_command > <filename>      # '>' is used to perform redirections, it will set any_command's stdout to file instead of "real stdout" (generally /dev/stdout)
 more <filename>               # shows the first part of a file (move with space and type q to quit)
 head <filename>               # outputs the first lines of file (default: 10 lines)
@@ -123,14 +129,15 @@ grep -r <pattern> <dir>       # search recursively for pattern in directory
 head -n file_name | tail +n   # Print nth line from file.
 head -y lines.txt | tail +x   # want to display all the lines from x to y. This includes the xth and yth lines.
 
-sed 's/<pattern>/<replacement>/g' <filename> # replace pattern in file with replacement value to std output the character after s (/) is the delimeter 
+sed 's/<pattern>/<replacement>/g' <filename> # replace pattern in file with replacement value to std output the character after s (/) is the delimeter
 sed -i 's/<pattern>/<replacement>/g' <filename> # replace pattern in file with replacement value in place
 echo "this" | sed 's/is/at/g' # replace pattern from input stream with replacement value
 
 ##############################################################################
-# DIRECTORY COMMANDS
-##############################################################################
 
+# DIRECTORY COMMANDS
+
+##############################################################################
 
 mkdir <dirname>               # makes a new directory
 rmdir <dirname>               # remove an empty directory
@@ -145,9 +152,10 @@ cd ~                          # changes to home.
 cd -                          # changes to previous working directory
 
 ##############################################################################
-# SSH, SYSTEM INFO & NETWORK COMMANDS
-##############################################################################
 
+# SSH, SYSTEM INFO & NETWORK COMMANDS
+
+##############################################################################
 
 ssh user@host            # connects to host as user
 ssh -p <port> user@host  # connects to host on specified port as user
@@ -190,11 +198,11 @@ netstat                  # Print network connections, routing tables, interface 
 
 time <command>           # report time consumed by command execution
 
-
 ##############################################################################
+
 # VARIABLES
-##############################################################################
 
+##############################################################################
 
 varname=value                # defines a variable
 varname=value command        # defines a variable to be in the environment of a particular subprocess
@@ -203,14 +211,14 @@ echo $$                      # prints process ID of the current shell
 echo $!                      # prints process ID of the most recently invoked background job
 echo $?                      # displays the exit status of the last command
 read <varname>               # reads a string from the input and assigns it to a variable
-read -p "prompt" <varname>   # same as above but outputs a prompt to ask user for value 
+read -p "prompt" <varname>   # same as above but outputs a prompt to ask user for value
 column -t <filename>         # display info in pretty columns (often used with pipe)
 let <varname> = <equation>   # performs mathematical calculation using operators like +, -, *, /, %
 export VARNAME=value         # defines an environment variable (will be available in subprocesses)
 export -f  <funcname>        # Exports function 'funcname'
 export var1="var1 value"     # Export and assign in the same statement
-export <varname>             # Copy Bash variable 
-declare -x <varname>         # Copy Bash variable 
+export <varname>             # Copy Bash variable
+declare -x <varname>         # Copy Bash variable
 
 array[0]=valA                # how to define an array
 array[1]=valB
@@ -258,26 +266,27 @@ $(UNIX command)              # command substitution: runs the command and return
 typeset -l <x>                 # makes variable local - <x> must be an interger
 
 ##############################################################################
+
 # FUNCTIONS
+
 ##############################################################################
 
-
 # The function refers to passed arguments by position (as if they were positional parameters), that is, $1, $2, and so forth.
+
 # $@ is equal to "$1" "$2"... "$N", where N is the number of positional parameters. $# holds the number of positional parameters.
 
-
 function functname() {
-  shell commands
+shell commands
 }
 
 unset -f functname  # deletes a function definition
 declare -f          # displays all defined functions in your login session
 
-
 ##############################################################################
+
 # FLOW CONTROLS
-##############################################################################
 
+##############################################################################
 
 statement1 && statement2  # and operator
 statement1 || statement2  # or operator
@@ -323,54 +332,56 @@ file1 -ot file2           # file1 is older than file2
 
 if condition
 then
-  statements
+statements
 [elif condition
-  then statements...]
+then statements...]
 [else
-  statements]
+statements]
 fi
 
 for x in {1..10}
 do
-  statements
+statements
 done
 
 for name [in list]
 do
-  statements that can use $name
+statements that can use $name
 done
 
 for (( initialisation ; ending condition ; update ))
 do
-  statements...
+statements...
 done
 
 case expression in
-  pattern1 )
-    statements ;;
-  pattern2 )
-    statements ;;
+pattern1 )
+statements ;;
+pattern2 )
+statements ;;
 esac
 
 select name [in list]
 do
-  statements that can use $name
+statements that can use $name
 done
 
 while condition; do
-  statements
+statements
 done
 
 until condition; do
-  statements
+statements
 done
 
 ##############################################################################
+
 # COMMAND-LINE PROCESSING CYCLE
+
 ##############################################################################
 
-
 # The default order for command lookup is functions, followed by built-ins, with scripts and executables last.
+
 # There are three built-ins that you can use to override this order: `command`, `builtin` and `enable`.
 
 command  # removes alias and function lookup. Only built-ins and commands found in the search path are executed
@@ -379,43 +390,47 @@ enable   # enables and disables shell built-ins
 
 eval     # takes arguments and run them through the command-line processing steps all over again
 
-
 ##############################################################################
+
 # INPUT/OUTPUT REDIRECTORS
-##############################################################################
 
+##############################################################################
 
 cmd1|cmd2  # pipe; takes standard output of cmd1 as standard input to cmd2
 < file     # takes standard input from file
+
 > file     # directs standard output to file
->> file    # directs standard output to file; append to file if it already exists
->|file     # forces standard output to file even if noclobber is set
-n>|file    # forces output to file from file descriptor n even if noclobber is set
-<> file    # uses file as both standard input and standard output
-n<>file    # uses file as both input and output for file descriptor n
-n>file     # directs file descriptor n to file
-n<file     # takes file descriptor n from file
-n>>file    # directs file description n to file; append to file if it already exists
-n>&        # duplicates standard output to file descriptor n
-n<&        # duplicates standard input from file descriptor n
-n>&m       # file descriptor n is made to be a copy of the output file descriptor
-n<&m       # file descriptor n is made to be a copy of the input file descriptor
-&>file     # directs standard output and standard error to file
-<&-        # closes the standard input
->&-        # closes the standard output
-n>&-       # closes the ouput from file descriptor n
-n<&-       # closes the input from file descriptor n
+> 
+> > file    # directs standard output to file; append to file if it already exists
+> > |file     # forces standard output to file even if noclobber is set
+> > n>|file    # forces output to file from file descriptor n even if noclobber is set
+> > <> file    # uses file as both standard input and standard output
+> > n<>file    # uses file as both input and output for file descriptor n
+> > n>file     # directs file descriptor n to file
+> > n<file     # takes file descriptor n from file
+> > n>>file    # directs file description n to file; append to file if it already exists
+> > n>&        # duplicates standard output to file descriptor n
+> > n<&        # duplicates standard input from file descriptor n
+> > n>&m       # file descriptor n is made to be a copy of the output file descriptor
+> > n<&m       # file descriptor n is made to be a copy of the input file descriptor
+> > &>file     # directs standard output and standard error to file
+> > <&-        # closes the standard input
+> > &-        # closes the standard output
+> > n>&-       # closes the ouput from file descriptor n
+> > n<&-       # closes the input from file descriptor n
 
 |tee <file># output command to both terminal and a file (-a to append to file)
 
-
 ##############################################################################
+
 # PROCESS HANDLING
-##############################################################################
 
+##############################################################################
 
 # To suspend a job, type CTRL+Z while it is running. You can also suspend a job with CTRL+Y.
+
 # This is slightly different from CTRL+Z in that the process is only stopped when it attempts to read input from terminal.
+
 # Of course, to interrupt a job, type CTRL+C.
 
 myCommand &  # runs job in the background and prompts back the shell
@@ -450,29 +465,33 @@ sleep <number>      # wait # of seconds before continuing
 pv                  # display progress bar for data handling commands. often used with pipe like |pv
 yes                 # give yes response everytime an input is requested from script/process
 
-
 ##############################################################################
+
 # TIPS & TRICKS
-##############################################################################
 
+##############################################################################
 
 # set an alias
+
 cd; nano .bash_profile
+
 > alias gentlenode='ssh admin@gentlenode.com -p 3404'  # add your alias in .bash_profile
 
 # to quickly go to a specific directory
+
 cd; nano .bashrc
+
 > shopt -s cdable_vars
 > export websites="/Users/mac/Documents/websites"
 
 source .bashrc
 cd $websites
 
-
 ##############################################################################
+
 # DEBUGGING SHELL PROGRAMS
-##############################################################################
 
+##############################################################################
 
 bash -n scriptname  # don't run commands; check for syntax errors only
 set -o noexec       # alternative (set option in script)
@@ -486,34 +505,42 @@ set -o xtrace       # alternative (set option in script)
 trap 'echo $varname' EXIT  # useful when you want to print out the values of variables at the point that your script exits
 
 function errtrap {
-  es=$?
-  echo "ERROR line $1: Command exited with status $es."
+es=$?
+echo "ERROR line $1: Command exited with status $es."
 }
 
 trap 'errtrap $LINENO' ERR  # is run whenever a command in the surrounding script or function exits with non-zero status
 
 function dbgtrap {
-  echo "badvar is $badvar"
+echo "badvar is $badvar"
 }
 
 trap dbgtrap DEBUG  # causes the trap code to be executed before every statement in a function or script
+
 # ...section of code in which the problem occurs...
+
 trap - DEBUG  # turn off the DEBUG trap
 
 function returntrap {
-  echo "A return occurred"
+echo "A return occurred"
 }
 
 trap returntrap RETURN  # is executed each time a shell function or a script executed with the . or source commands finishes executing
 
 ##############################################################################
-# COLORS AND BACKGROUNDS 
+
+# COLORS AND BACKGROUNDS
+
 ##############################################################################
-# note: \e or \x1B also work instead of \033 
+
+# note: \e or \x1B also work instead of \033
+
 # Reset
+
 Color_Off='\033[0m' # Text Reset
 
 # Regular Colors
+
 Black='\033[0;30m'  # Black
 Red='\033[0;31m'    # Red
 Green='\033[0;32m'  # Green
@@ -524,6 +551,7 @@ Cyan='\033[0;36m'   # Cyan
 White='\033[0;97m'  # White
 
 # Additional colors
+
 LGrey='\033[0;37m'  # Ligth Gray
 DGrey='\033[0;90m'  # Dark Gray
 LRed='\033[0;91m'   # Ligth Red
@@ -533,8 +561,8 @@ LBlue='\033[0;94m'  # Ligth Blue
 LPurple='\033[0;95m'# Light Purple
 LCyan='\033[0;96m'  # Ligth Cyan
 
-
 # Bold
+
 BBlack='\033[1;30m' # Black
 BRed='\033[1;31m'   # Red
 BGreen='\033[1;32m' # Green
@@ -545,6 +573,7 @@ BCyan='\033[1;36m'  # Cyan
 BWhite='\033[1;37m' # White
 
 # Underline
+
 UBlack='\033[4;30m' # Black
 URed='\033[4;31m'   # Red
 UGreen='\033[4;32m' # Green
@@ -555,6 +584,7 @@ UCyan='\033[4;36m'  # Cyan
 UWhite='\033[4;37m' # White
 
 # Background
+
 On_Black='\033[40m' # Black
 On_Red='\033[41m'   # Red
 On_Green='\033[42m' # Green
@@ -565,7 +595,15 @@ On_Cyan='\033[46m'  # Cyan
 On_White='\033[47m' # White
 
 # Example of usage
+
 echo -e "${Green}This is GREEN text${Color_Off} and normal text"
-echo -e "${Red}${On_White}This is Red test on White background${Color_Off}" 
+echo -e "${Red}${On_White}This is Red test on White background${Color_Off}"
+
 # option -e is mandatory, it enable interpretation of backslash escapes
+
 printf "${Red} This is red \n"
+
+```
+
+```
+
