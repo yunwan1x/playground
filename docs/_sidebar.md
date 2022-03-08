@@ -1,3 +1,5 @@
+* bash
+    * [cheatsheet](bash/cheatsheet.md)
 * office
     * [excel](office/excel.md)
 * 云计算和网络
