@@ -13,12 +13,6 @@
 
 [中间件](https://www.jetbrains.com/legal/third-party-software/?product=IIU&version=2021.2.3)
 
-# 调试
-
-```bash
-
-python3 -m http.server 3000 --bind 127.0.0.1  --directory docs
-```
 
 # 每天认识一个新命令
 
@@ -83,43 +77,6 @@ ssh证书登录 [ruanyifeng](https://www.ruanyifeng.com/blog/2020/07/ssh-certifi
 4. [linux shell编程指南](http://c.biancheng.net/shell/)
 5. [linux系统管理](http://c.biancheng.net/linux_tutorial/)
 6. [并发网](https://www.zhihu.com/answer/2157140104)
-
-# 碎碎念
-
-1. quicklook预览
-2. 录屏神器BandiCam
-3. mype支持网络功能的pe
-4. geek uninstall
-5. 星愿浏览器
-6. 小丸工具箱
-7. capslock+
-8. deskreen投屏共享
-9. gimp代替PS
-10. spacesniffer 查看磁盘占用
-11. anytxt
-12. anlink
-13. Giphy Capture
-14. 妙手ocr
-15. BookxNote Pro
-16. potplayer
-
-# idea插件
-
-[40款idea插件](https://zhuanlan.zhihu.com/p/412113632)
-
-[idea好用的插件](https://zhuanlan.zhihu.com/p/412956073)
-
-[zhihu](https://zhuanlan.zhihu.com/p/130733659)
-
-restfultookit插件自动生成请求
-
-[idea好用插件](https://mp.weixin.qq.com/s/AxaQz9OyYmYs_L8Ef2kqJw)
-
-[好用的命令行工具](https://mp.weixin.qq.com/s/ZTMwK5r1d2abXcOtnu6nEA)
-
-# k8s集群备份
-
-1. [weixin](https://mp.weixin.qq.com/s?__biz=MzI3MTI2NzkxMA==&mid=2247502728&idx=1&sn=04c17852082d9b03c0a95e8aab5bd8c9&chksm=eac6eaa1ddb163b7ed29bc0544d3accd499b30bfbf473df3bddd50bc67818f1a492e3f5ec07d&scene=90&subscene=93&sessionid=1638615728&clicktime=1638632572&enterid=1638632572&ascene=56&devicetype=android-29&version=28001057&nettype=WIFI&abtest_cookie=AAACAA%3D%3D&lang=zh_CN&exportkey=AS%2B8poSLqCU8Tu9SgC8Bbek%3D&pass_ticket=4DYMfcFTRRWaKypm%2FBcWLDbNqNBNLwWrBSH%2FeuGLIwnbVEno1xokT2g8AwPZ4ADu&wx_header=1)
 
 # 杂项
 
