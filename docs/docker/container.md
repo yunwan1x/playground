@@ -14,3 +14,4 @@ docker run --rm -d -p 6901:6901 accetto/ubuntu-vnc-xfce-g3
 * [kod explorer](https://github.com/kalcaddle/kodbox)
 * [onlyoffice](https://hub.docker.com/r/onlyoffice/documentserver)
 * [cloud9在线代码编辑器](https://hub.docker.com/r/linuxserver/cloud9)
+* [mindoc wiki系统](https://github.com/mindoc-org/mindoc)
