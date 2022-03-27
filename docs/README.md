@@ -1,4 +1,4 @@
-# 常用FAQ
+## 常用FAQ
 
 1. [解决chome访问非受信任证书页面，提示您的连接不是私密连接](https://blog.csdn.net/easylife206/article/details/107171565)
 2. chrome 常用内部urls [chrome://about](chrome://about)
@@ -12,7 +12,6 @@
 # IDEA用到的中间件
 
 [中间件](https://www.jetbrains.com/legal/third-party-software/?product=IIU&version=2021.2.3)
-
 
 # 每天认识一个新命令
 
